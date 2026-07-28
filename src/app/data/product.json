@@ -1,0 +1,293 @@
+[
+    {
+        "id": "BG001",
+        "sku": "BG-LIVER-001",
+        "slug": "blake-global-liver-support",
+        "name": "Blake Global Liver Support",
+        "brand": "Blake Global",
+        "category": "Liver Health",
+        "price": 24.99,
+        "discountPrice": 19.99,
+        "currency": "USD",
+        "stock": {
+            "quantity": 120,
+            "status": "In Stock"
+        },
+        "featured": true,
+        "bestSeller": true,
+        "newArrival": false,
+        "images": [
+            "/images/products/product1.jpeg",
+            "/images/products/product1.jpeg",
+            "/images/products/product1.jpeg"
+        ],
+        "shortDescription": "Premium UK manufactured liver support supplement.",
+        "description": "Supports healthy liver function with premium ingredients manufactured in the United Kingdom.",
+        "keyBenefits": [
+            "Supports Liver Health",
+            "Natural Detox Support",
+            "Rich in Antioxidants",
+            "UK Manufactured"
+        ],
+        "ingredients": [
+            {
+                "name": "Milk Thistle",
+                "amount": "250mg"
+            },
+            {
+                "name": "Choline",
+                "amount": "150mg"
+            },
+            {
+                "name": "Vitamin C",
+                "amount": "80mg"
+            }
+        ],
+        "usage": {
+            "dosage": "Take 1 capsule daily after meals."
+        },
+        "specifications": {
+            "form": "Capsules",
+            "quantity": "60 Capsules",
+            "countryOfOrigin": "United Kingdom"
+        },
+        "certifications": [
+            "UK Manufactured",
+            "GMP Certified",
+            "Free Sales Certified"
+        ]
+    },
+    {
+        "id": "BG002",
+        "sku": "BG-OMEGA-001",
+        "slug": "blake-global-omega-3",
+        "name": "Blake Global Omega-3 Fish Oil",
+        "brand": "Blake Global",
+        "category": "Heart Health",
+        "price": 29.99,
+        "discountPrice": 25.99,
+        "currency": "USD",
+        "stock": {
+            "quantity": 85,
+            "status": "In Stock"
+        },
+        "featured": true,
+        "bestSeller": false,
+        "newArrival": true,
+        "images": [
+            "/images/products/product1.jpeg",
+            "/images/products/product1.jpeg",
+            "/images/products/product1.jpeg"
+        ],
+        "shortDescription": "High-strength Omega-3 Fish Oil for heart and brain health.",
+        "description": "Premium fish oil rich in EPA and DHA to support heart, brain, and eye health.",
+        "keyBenefits": [
+            "Heart Health",
+            "Brain Function",
+            "Eye Health",
+            "High EPA & DHA"
+        ],
+        "ingredients": [
+            {
+                "name": "Fish Oil",
+                "amount": "1000mg"
+            },
+            {
+                "name": "EPA",
+                "amount": "180mg"
+            },
+            {
+                "name": "DHA",
+                "amount": "120mg"
+            }
+        ],
+        "usage": {
+            "dosage": "Take 2 softgels daily with food."
+        },
+        "specifications": {
+            "form": "Softgels",
+            "quantity": "90 Softgels",
+            "countryOfOrigin": "United Kingdom"
+        },
+        "certifications": [
+            "UK Manufactured",
+            "GMP Certified"
+        ]
+    },
+    {
+        "id": "BG003",
+        "sku": "BG-MULTI-001",
+        "slug": "blake-global-daily-multivitamin",
+        "name": "Blake Global Daily Multivitamin",
+        "brand": "Blake Global",
+        "category": "Multivitamins",
+        "price": 21.99,
+        "discountPrice": 18.99,
+        "currency": "USD",
+        "stock": {
+            "quantity": 0,
+            "status": "Out of Stock"
+        },
+        "featured": false,
+        "bestSeller": true,
+        "newArrival": false,
+        "images": [
+            "/images/products/product1.jpeg",
+            "/images/products/product1.jpeg",
+            "/images/products/product1.jpeg"
+        ],
+        "shortDescription": "Complete daily vitamin and mineral formula.",
+        "description": "A comprehensive blend of vitamins and minerals for daily nutritional support.",
+        "keyBenefits": [
+            "Daily Wellness",
+            "Immune Support",
+            "Energy Production",
+            "Overall Health"
+        ],
+        "ingredients": [
+            {
+                "name": "Vitamin A",
+                "amount": "800mcg"
+            },
+            {
+                "name": "Vitamin C",
+                "amount": "80mg"
+            },
+            {
+                "name": "Vitamin D3",
+                "amount": "10mcg"
+            },
+            {
+                "name": "Zinc",
+                "amount": "10mg"
+            }
+        ],
+        "usage": {
+            "dosage": "Take 1 tablet daily."
+        },
+        "specifications": {
+            "form": "Tablets",
+            "quantity": "60 Tablets",
+            "countryOfOrigin": "United Kingdom"
+        },
+        "certifications": [
+            "UK Manufactured",
+            "Quality Tested"
+        ]
+    },
+    {
+        "id": "BG004",
+        "sku": "BG-BEAUTY-001",
+        "slug": "blake-global-hair-skin-nails",
+        "name": "Blake Global Hair, Skin & Nails",
+        "brand": "Blake Global",
+        "category": "Beauty",
+        "price": 27.99,
+        "discountPrice": 23.99,
+        "currency": "USD",
+        "stock": {
+            "quantity": 55,
+            "status": "In Stock"
+        },
+        "featured": false,
+        "bestSeller": false,
+        "newArrival": true,
+        "images": [
+            "/images/products/product1.jpeg",
+            "/images/products/product1.jpeg",
+            "/images/products/product1.jpeg"
+        ],
+        "shortDescription": "Beauty formula enriched with Biotin and Collagen.",
+        "description": "Supports healthy hair, glowing skin, and stronger nails.",
+        "keyBenefits": [
+            "Healthy Hair",
+            "Glowing Skin",
+            "Strong Nails",
+            "Collagen Support"
+        ],
+        "ingredients": [
+            {
+                "name": "Biotin",
+                "amount": "5000mcg"
+            },
+            {
+                "name": "Collagen",
+                "amount": "500mg"
+            },
+            {
+                "name": "Vitamin E",
+                "amount": "12mg"
+            }
+        ],
+        "usage": {
+            "dosage": "Take 2 capsules daily."
+        },
+        "specifications": {
+            "form": "Capsules",
+            "quantity": "60 Capsules",
+            "countryOfOrigin": "United Kingdom"
+        },
+        "certifications": [
+            "UK Manufactured",
+            "GMP Certified"
+        ]
+    },
+    {
+        "id": "BG005",
+        "sku": "BG-KIDS-001",
+        "slug": "blake-global-kids-multivitamin",
+        "name": "Blake Global Kids Multivitamin Gummies",
+        "brand": "Blake Global",
+        "category": "Kids Nutrition",
+        "price": 18.99,
+        "discountPrice": 15.99,
+        "currency": "USD",
+        "stock": {
+            "quantity": 200,
+            "status": "In Stock"
+        },
+        "featured": true,
+        "bestSeller": false,
+        "newArrival": true,
+        "images": [
+            "/images/products/product1.jpeg",
+            "/images/products/product1.jpeg",
+            "/images/products/product1.jpeg"
+        ],
+        "shortDescription": "Delicious daily multivitamin gummies for children.",
+        "description": "Specially formulated to support children's healthy growth, immunity, and development.",
+        "keyBenefits": [
+            "Immune Support",
+            "Healthy Growth",
+            "Bone Development",
+            "Great Taste"
+        ],
+        "ingredients": [
+            {
+                "name": "Vitamin C",
+                "amount": "40mg"
+            },
+            {
+                "name": "Vitamin D3",
+                "amount": "10mcg"
+            },
+            {
+                "name": "Calcium",
+                "amount": "120mg"
+            }
+        ],
+        "usage": {
+            "dosage": "Children aged 4+: Chew 1 gummy daily."
+        },
+        "specifications": {
+            "form": "Gummies",
+            "quantity": "60 Gummies",
+            "countryOfOrigin": "United Kingdom"
+        },
+        "certifications": [
+            "UK Manufactured",
+            "Free Sales Certified",
+            "Quality Tested"
+        ]
+    }
+]
