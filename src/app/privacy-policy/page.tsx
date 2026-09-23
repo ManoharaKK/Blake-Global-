@@ -8,14 +8,14 @@ export default function PrivacyPolicyPage() {
         
         {/* Breadcrumb */}
         <nav className="flex items-center gap-2 text-sm text-gray-500 mb-6">
-          <Link href="/" className="hover:text-[#5B6E3F] transition-colors">Home</Link>
+          <Link href="/" className="hover:text-[#4174D6] transition-colors">Home</Link>
           <span>/</span>
           <span className="text-gray-900 font-medium">Privacy Policy</span>
         </nav>
 
         {/* Article Container */}
         <div className="bg-white p-8 sm:p-12 border border-gray-200 shadow-sm rounded-none">
-          <span className="text-xs font-bold uppercase tracking-widest text-[#5B6E3F]">
+          <span className="text-xs font-bold uppercase tracking-widest text-[#4174D6]">
             Blake Global (PVT) LTD
           </span>
           <h1 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mt-2 mb-8 tracking-tight border-b border-gray-100 pb-4">
@@ -26,7 +26,7 @@ export default function PrivacyPolicyPage() {
             
             {/* Introduction */}
             <section>
-              <h2 className="text-xl font-bold text-gray-900 mb-3 border-l-4 border-[#5B6E3F] pl-3">
+              <h2 className="text-xl font-bold text-gray-900 mb-3 border-l-4 border-[#4174D6] pl-3">
                 Introduction
               </h2>
               <p>
@@ -36,7 +36,7 @@ export default function PrivacyPolicyPage() {
 
             {/* Information We Collect */}
             <section>
-              <h2 className="text-xl font-bold text-gray-900 mb-3 border-l-4 border-[#5B6E3F] pl-3">
+              <h2 className="text-xl font-bold text-gray-900 mb-3 border-l-4 border-[#4174D6] pl-3">
                 Information We Collect
               </h2>
               <p className="mb-2">We may collect:</p>
@@ -55,7 +55,7 @@ export default function PrivacyPolicyPage() {
 
             {/* How We Collect Information */}
             <section>
-              <h2 className="text-xl font-bold text-gray-900 mb-3 border-l-4 border-[#5B6E3F] pl-3">
+              <h2 className="text-xl font-bold text-gray-900 mb-3 border-l-4 border-[#4174D6] pl-3">
                 How We Collect Information
               </h2>
               <ul className="list-disc pl-6 space-y-1.5 text-gray-700">
@@ -67,7 +67,7 @@ export default function PrivacyPolicyPage() {
 
             {/* How We Use Your Information */}
             <section>
-              <h2 className="text-xl font-bold text-gray-900 mb-3 border-l-4 border-[#5B6E3F] pl-3">
+              <h2 className="text-xl font-bold text-gray-900 mb-3 border-l-4 border-[#4174D6] pl-3">
                 How We Use Your Information
               </h2>
               <p className="mb-2">We use your data to:</p>
@@ -83,7 +83,7 @@ export default function PrivacyPolicyPage() {
 
             {/* Data Protection */}
             <section>
-              <h2 className="text-xl font-bold text-gray-900 mb-3 border-l-4 border-[#5B6E3F] pl-3">
+              <h2 className="text-xl font-bold text-gray-900 mb-3 border-l-4 border-[#4174D6] pl-3">
                 Data Protection
               </h2>
               <p>
@@ -93,7 +93,7 @@ export default function PrivacyPolicyPage() {
 
             {/* Cookies */}
             <section>
-              <h2 className="text-xl font-bold text-gray-900 mb-3 border-l-4 border-[#5B6E3F] pl-3">
+              <h2 className="text-xl font-bold text-gray-900 mb-3 border-l-4 border-[#4174D6] pl-3">
                 Cookies
               </h2>
               <p>
@@ -103,7 +103,7 @@ export default function PrivacyPolicyPage() {
 
             {/* Third-Party Services */}
             <section>
-              <h2 className="text-xl font-bold text-gray-900 mb-3 border-l-4 border-[#5B6E3F] pl-3">
+              <h2 className="text-xl font-bold text-gray-900 mb-3 border-l-4 border-[#4174D6] pl-3">
                 Third‑Party Services
               </h2>
               <p className="mb-2">We work with secure partners such as:</p>
@@ -117,7 +117,7 @@ export default function PrivacyPolicyPage() {
 
             {/* Your Rights */}
             <section>
-              <h2 className="text-xl font-bold text-gray-900 mb-3 border-l-4 border-[#5B6E3F] pl-3">
+              <h2 className="text-xl font-bold text-gray-900 mb-3 border-l-4 border-[#4174D6] pl-3">
                 Your Rights
               </h2>
               <p className="mb-2">You may request:</p>
@@ -130,20 +130,20 @@ export default function PrivacyPolicyPage() {
 
             {/* Contact Information */}
             <section className="pt-6 border-t border-gray-100">
-              <h2 className="text-xl font-bold text-gray-900 mb-3 border-l-4 border-[#5B6E3F] pl-3">
+              <h2 className="text-xl font-bold text-gray-900 mb-3 border-l-4 border-[#4174D6] pl-3">
                 Contact Information
               </h2>
               <p className="mb-4">For privacy inquiries or data requests, please contact us:</p>
               <div className="bg-slate-50 p-6 border border-gray-200 rounded-none space-y-3">
                 <div className="flex items-center gap-3">
                   <span className="font-bold text-gray-900">📧 Email:</span>
-                  <a href="mailto:privacy@blakegloballtd.com" className="text-[#5B6E3F] font-semibold hover:underline">
+                  <a href="mailto:privacy@blakegloballtd.com" className="text-[#4174D6] font-semibold hover:underline">
                     privacy@blakegloballtd.com
                   </a>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="font-bold text-gray-900">💬 WhatsApp:</span>
-                  <a href="https://wa.me/94771234567" target="_blank" rel="noopener noreferrer" className="text-[#5B6E3F] font-semibold hover:underline">
+                  <a href="https://wa.me/94771234567" target="_blank" rel="noopener noreferrer" className="text-[#4174D6] font-semibold hover:underline">
                     +94 77 123 4567
                   </a>
                 </div>

@@ -32,7 +32,7 @@ export default function Hero() {
         <div className="mt-6">
           <a
             href="#products"
-            className="inline-flex items-center justify-center px-8 py-3.5 bg-[#5B6E3F] hover:bg-black text-white font-bold text-sm sm:text-base uppercase tracking-wider transition-all duration-200 shadow-xl border border-[#5B6E3F] hover:border-black rounded-none"
+            className="inline-flex items-center justify-center px-8 py-3.5 bg-[#4174D6] hover:bg-black text-white font-bold text-sm sm:text-base uppercase tracking-wider transition-all duration-200 shadow-xl border border-[#4174D6] hover:border-black rounded-none"
           >
             Shop Now
           </a>

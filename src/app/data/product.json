@@ -1,293 +1,727 @@
-[
-    {
-        "id": "BG001",
-        "sku": "BG-LIVER-001",
-        "slug": "blake-global-liver-support",
-        "name": "Blake Global Liver Support",
-        "brand": "Blake Global",
-        "category": "Liver Health",
-        "price": 24.99,
-        "discountPrice": 19.99,
-        "currency": "USD",
-        "stock": {
-            "quantity": 120,
-            "status": "In Stock"
-        },
-        "featured": true,
-        "bestSeller": true,
-        "newArrival": false,
-        "images": [
-            "/images/products/product1.jpeg",
-            "/images/products/product1.jpeg",
-            "/images/products/product1.jpeg"
-        ],
-        "shortDescription": "Premium UK manufactured liver support supplement.",
-        "description": "Supports healthy liver function with premium ingredients manufactured in the United Kingdom.",
-        "keyBenefits": [
-            "Supports Liver Health",
-            "Natural Detox Support",
-            "Rich in Antioxidants",
-            "UK Manufactured"
-        ],
-        "ingredients": [
-            {
-                "name": "Milk Thistle",
-                "amount": "250mg"
-            },
-            {
-                "name": "Choline",
-                "amount": "150mg"
-            },
-            {
-                "name": "Vitamin C",
-                "amount": "80mg"
-            }
-        ],
-        "usage": {
-            "dosage": "Take 1 capsule daily after meals."
-        },
-        "specifications": {
-            "form": "Capsules",
-            "quantity": "60 Capsules",
-            "countryOfOrigin": "United Kingdom"
-        },
-        "certifications": [
-            "UK Manufactured",
-            "GMP Certified",
-            "Free Sales Certified"
-        ]
+{
+  "brand": {
+    "name": "VitaBlake",
+    "company": "Blake Global Holdings (PVT) LTD",
+    "origin": "United Kingdom",
+    "market": "Sri Lanka",
+    "whyChoose": {
+      "heading": "Why Choose VitaBlake?",
+      "text": "VitaBlake is a UK brand under Blake Global Holdings (PVT) LTD a UK based company dedicated to bringing high-quality vitamins and supplements to Sri Lanka. Our products are manufactured in the UK by an established, quality-focused manufacturer whose products are distributed across Europe. With carefully selected ingredients, high manufacturing standards, and a strong commitment to quality, VitaBlake brings you vitamins you can trust. From trusted UK manufacturing to your hands in Sri Lanka, we are committed to delivering quality, reliability, and confidence in every product. We ensure that all our products are made to the highest British manufacturing standards."
     },
-    {
-        "id": "BG002",
-        "sku": "BG-OMEGA-001",
-        "slug": "blake-global-omega-3",
-        "name": "Blake Global Omega-3 Fish Oil",
-        "brand": "Blake Global",
-        "category": "Heart Health",
-        "price": 29.99,
-        "discountPrice": 25.99,
-        "currency": "USD",
-        "stock": {
-            "quantity": 85,
-            "status": "In Stock"
+    "qualityAssurance": {
+      "heading": "Manufacturing Quality Assurance Standards",
+      "standards": [
+        {
+          "name": "MHRA Certified",
+          "description": "Certified by the Medicines and Healthcare products Regulatory Agency (MHRA), validating our Good Manufacturing Practices (GMP) in UK."
         },
-        "featured": true,
-        "bestSeller": false,
-        "newArrival": true,
-        "images": [
-            "/images/products/product1.jpeg",
-            "/images/products/product1.jpeg",
-            "/images/products/product1.jpeg"
-        ],
-        "shortDescription": "High-strength Omega-3 Fish Oil for heart and brain health.",
-        "description": "Premium fish oil rich in EPA and DHA to support heart, brain, and eye health.",
-        "keyBenefits": [
-            "Heart Health",
-            "Brain Function",
-            "Eye Health",
-            "High EPA & DHA"
-        ],
-        "ingredients": [
-            {
-                "name": "Fish Oil",
-                "amount": "1000mg"
-            },
-            {
-                "name": "EPA",
-                "amount": "180mg"
-            },
-            {
-                "name": "DHA",
-                "amount": "120mg"
-            }
-        ],
-        "usage": {
-            "dosage": "Take 2 softgels daily with food."
+        {
+          "name": "FSSC 22000",
+          "description": "Certified by SGS Food Safety System Certification FSSC 22000."
         },
-        "specifications": {
-            "form": "Softgels",
-            "quantity": "90 Softgels",
-            "countryOfOrigin": "United Kingdom"
+        {
+          "name": "Good Manufacturing Practices (GMP)",
+          "description": "Manufactured in accordance with recognised quality and safety procedures in UK."
         },
-        "certifications": [
-            "UK Manufactured",
-            "GMP Certified"
-        ]
-    },
-    {
-        "id": "BG003",
-        "sku": "BG-MULTI-001",
-        "slug": "blake-global-daily-multivitamin",
-        "name": "Blake Global Daily Multivitamin",
-        "brand": "Blake Global",
-        "category": "Multivitamins",
-        "price": 21.99,
-        "discountPrice": 18.99,
-        "currency": "USD",
-        "stock": {
-            "quantity": 0,
-            "status": "Out of Stock"
+        {
+          "name": "Health Food Manufacturers' Association (HFMA)",
+          "description": "Proud member of the Health Food Manufacturers' Association in UK."
         },
-        "featured": false,
-        "bestSeller": true,
-        "newArrival": false,
-        "images": [
-            "/images/products/product1.jpeg",
-            "/images/products/product1.jpeg",
-            "/images/products/product1.jpeg"
-        ],
-        "shortDescription": "Complete daily vitamin and mineral formula.",
-        "description": "A comprehensive blend of vitamins and minerals for daily nutritional support.",
-        "keyBenefits": [
-            "Daily Wellness",
-            "Immune Support",
-            "Energy Production",
-            "Overall Health"
-        ],
-        "ingredients": [
-            {
-                "name": "Vitamin A",
-                "amount": "800mcg"
-            },
-            {
-                "name": "Vitamin C",
-                "amount": "80mg"
-            },
-            {
-                "name": "Vitamin D3",
-                "amount": "10mcg"
-            },
-            {
-                "name": "Zinc",
-                "amount": "10mg"
-            }
-        ],
-        "usage": {
-            "dosage": "Take 1 tablet daily."
+        {
+          "name": "Soil Association Certified",
+          "description": "Certified for the manufacture of organic products in UK."
         },
-        "specifications": {
-            "form": "Tablets",
-            "quantity": "60 Tablets",
-            "countryOfOrigin": "United Kingdom"
+        {
+          "name": "Vegetarian Society Certified",
+          "description": "Certified for the production of vegan and vegetarian products in UK."
         },
-        "certifications": [
-            "UK Manufactured",
-            "Quality Tested"
-        ]
-    },
-    {
-        "id": "BG004",
-        "sku": "BG-BEAUTY-001",
-        "slug": "blake-global-hair-skin-nails",
-        "name": "Blake Global Hair, Skin & Nails",
-        "brand": "Blake Global",
-        "category": "Beauty",
-        "price": 27.99,
-        "discountPrice": 23.99,
-        "currency": "USD",
-        "stock": {
-            "quantity": 55,
-            "status": "In Stock"
-        },
-        "featured": false,
-        "bestSeller": false,
-        "newArrival": true,
-        "images": [
-            "/images/products/product1.jpeg",
-            "/images/products/product1.jpeg",
-            "/images/products/product1.jpeg"
-        ],
-        "shortDescription": "Beauty formula enriched with Biotin and Collagen.",
-        "description": "Supports healthy hair, glowing skin, and stronger nails.",
-        "keyBenefits": [
-            "Healthy Hair",
-            "Glowing Skin",
-            "Strong Nails",
-            "Collagen Support"
-        ],
-        "ingredients": [
-            {
-                "name": "Biotin",
-                "amount": "5000mcg"
-            },
-            {
-                "name": "Collagen",
-                "amount": "500mg"
-            },
-            {
-                "name": "Vitamin E",
-                "amount": "12mg"
-            }
-        ],
-        "usage": {
-            "dosage": "Take 2 capsules daily."
-        },
-        "specifications": {
-            "form": "Capsules",
-            "quantity": "60 Capsules",
-            "countryOfOrigin": "United Kingdom"
-        },
-        "certifications": [
-            "UK Manufactured",
-            "GMP Certified"
-        ]
-    },
-    {
-        "id": "BG005",
-        "sku": "BG-KIDS-001",
-        "slug": "blake-global-kids-multivitamin",
-        "name": "Blake Global Kids Multivitamin Gummies",
-        "brand": "Blake Global",
-        "category": "Kids Nutrition",
-        "price": 18.99,
-        "discountPrice": 15.99,
-        "currency": "USD",
-        "stock": {
-            "quantity": 200,
-            "status": "In Stock"
-        },
-        "featured": true,
-        "bestSeller": false,
-        "newArrival": true,
-        "images": [
-            "/images/products/product1.jpeg",
-            "/images/products/product1.jpeg",
-            "/images/products/product1.jpeg"
-        ],
-        "shortDescription": "Delicious daily multivitamin gummies for children.",
-        "description": "Specially formulated to support children's healthy growth, immunity, and development.",
-        "keyBenefits": [
-            "Immune Support",
-            "Healthy Growth",
-            "Bone Development",
-            "Great Taste"
-        ],
-        "ingredients": [
-            {
-                "name": "Vitamin C",
-                "amount": "40mg"
-            },
-            {
-                "name": "Vitamin D3",
-                "amount": "10mcg"
-            },
-            {
-                "name": "Calcium",
-                "amount": "120mg"
-            }
-        ],
-        "usage": {
-            "dosage": "Children aged 4+: Chew 1 gummy daily."
-        },
-        "specifications": {
-            "form": "Gummies",
-            "quantity": "60 Gummies",
-            "countryOfOrigin": "United Kingdom"
-        },
-        "certifications": [
-            "UK Manufactured",
-            "Free Sales Certified",
-            "Quality Tested"
-        ]
+        {
+          "name": "Environmental Health Inspected",
+          "description": "Successfully passed inspections by Environmental Health authorities in UK."
+        }
+      ]
     }
-]
+  },
+
+  "products": [
+    {
+      "id": "vb-001",
+      "sku": "VB-COL-001",
+      "slug": "vitablake-collagen-ultra",
+      "title": "VitaBlake Collagen Ultra",
+      "name": "VitaBlake Collagen Ultra",
+      "subtitle": "Joint and Bone Support",
+      "tagline": "Strong Foundations. Healthy Movement. Everyday Support.",
+      "brand": "VitaBlake",
+      "category": "Joint & Bone Health",
+      "packSize": { "count": 60, "unit": "capsules" },
+      "supply": { "label": "2 month supply", "minDays": 60, "maxDays": 60 },
+      "price": null,
+      "currency": "LKR",
+      "stock": {
+        "quantity": 100,
+        "status": "In Stock"
+      },
+      "featured": true,
+      "bestSeller": true,
+      "newArrival": false,
+      "images": [
+        "/images/products/VITA BLAKE COLLAGEN ULTRA.jpg",
+        "/images/products/VITA BLAKE COLLAGEN ULTRA.jpg",
+        "/images/products/VITA BLAKE COLLAGEN ULTRA.jpg",
+        "/images/products/VITA BLAKE COLLAGEN ULTRA.jpg",
+        "/images/products/VITA BLAKE COLLAGEN ULTRA.jpg"
+      ],
+      "summary": "A convenient daily formula with hydrolysed fish collagen, glucosamine, chondroitin, vitamin C and MSM to support your bones, joints and everyday mobility.",
+      "shortDescription": "A convenient daily formula with hydrolysed fish collagen, glucosamine, chondroitin, vitamin C and MSM to support your bones, joints and everyday mobility.",
+      "description": [
+        "Support your bones, joints and everyday mobility from within with Collagen Ultra, a convenient daily formula designed for adults who want to maintain an active and healthy lifestyle. Collagen is an important structural protein found throughout the body and plays a key role in the structure of bones, joints, cartilage and connective tissues.",
+        "The product is particularly suited to adults aged 30+, active individuals, fitness enthusiasts and those looking to support their bone and joint health as part of healthy ageing. Rather than focusing solely on beauty, Collagen Ultra is a daily wellness formula for maintaining mobility, flexibility and an active lifestyle, helping support your body's natural structural needs alongside a balanced diet and regular exercise.",
+        "In addition to hydrolysed collagen, this supplement contains glucosamine, chondroitin, vitamin C, and MSM for enhanced support."
+      ],
+      "suitableFor": [
+        "Adults aged 30+",
+        "Active individuals",
+        "Fitness enthusiasts",
+        "Those supporting bone and joint health as part of healthy ageing"
+      ],
+      "keyIngredients": [
+        "Hydrolysed collagen (fish)",
+        "Glucosamine",
+        "Chondroitin",
+        "Vitamin C",
+        "MSM"
+      ],
+      "benefits": [
+        "Supports bones, joints and everyday mobility",
+        "Vitamin C contributes to normal collagen formation for the normal function of bones and cartilage",
+        "Vitamin C contributes to normal collagen formation for the normal function of skin, blood vessels, gums and teeth"
+      ],
+      "keyBenefits": [
+        "Supports bones, joints and everyday mobility",
+        "Vitamin C contributes to normal collagen formation for bones & cartilage",
+        "Hydrolysed Fish Collagen + Glucosamine + Chondroitin + MSM"
+      ],
+      "sections": [
+        {
+          "heading": "What is Collagen?",
+          "body": "Collagen is a complex structural protein that is found in fibrous tissues within the body, such as tendons, ligaments, cartilage, bone and skin. Our collagen comes from hydrolysed fish sources. In hydrolysed collagen, the collagen bonds have been broken, leaving the essential amino acids intact and ready for digestion."
+        },
+        {
+          "heading": "What Does Collagen Ultra Do?",
+          "body": "Collagen Ultra contains vitamin C. Vitamin C contributes to normal collagen formation for the normal function of bones and cartilage, skin, blood vessels, gums, and teeth."
+        }
+      ],
+      "directions": "Take 1 capsule per day with a meal, or as directed by a healthcare professional.",
+      "productAdvice": "Do not exceed stated recommended dose. A food supplement should not be used as a substitute for a varied and balanced diet & healthy lifestyle. Store in a cool dry place, out of the reach and sight of young children.",
+      "warnings": [],
+      "allergens": ["Fish"],
+      "specifications": {
+        "form": "Capsules",
+        "quantity": "60 Capsules",
+        "countryOfOrigin": "United Kingdom"
+      },
+      "usage": {
+        "dosage": "Take 1 capsule per day with a meal"
+      },
+      "certifications": [
+        "MHRA Certified",
+        "GMP Certified",
+        "UK Manufactured"
+      ],
+      "_verify": [
+        "Pack size of 60 capsules comes from the reference screenshot (and matches the 2 month supply at 1 capsule/day).",
+        "Per-capsule amounts (200mg hydrolysed collagen, 250mg glucosamine sulphate 2KCl) come from the G&G reference screenshot - confirm against the real VitaBlake label before publishing.",
+        "Glucosamine is often shellfish-derived - confirm source and allergen labelling."
+      ]
+    },
+    {
+      "id": "vb-002",
+      "sku": "VB-OMG-002",
+      "slug": "vitablake-omega-3",
+      "title": "VitaBlake Omega 3",
+      "name": "VitaBlake Omega 3",
+      "subtitle": "Fish Oil 3000mg",
+      "tagline": "Pure Omega-3. Nature. Nutrition. Wellness.",
+      "brand": "VitaBlake",
+      "category": "Heart, Brain & Vision",
+      "packSize": { "count": 90, "unit": "softgels" },
+      "supply": { "label": "1 month supply", "minDays": 30, "maxDays": 30 },
+      "price": null,
+      "currency": "LKR",
+      "stock": {
+        "quantity": 100,
+        "status": "In Stock"
+      },
+      "featured": true,
+      "bestSeller": true,
+      "newArrival": false,
+      "images": [
+        "/images/products/VitaBlake Omega 3.JPG",
+        "/images/products/VitaBlake Omega 3.JPG",
+        "/images/products/VitaBlake Omega 3.JPG",
+        "/images/products/VitaBlake Omega 3.JPG",
+        "/images/products/VitaBlake Omega 3.JPG"
+      ],
+      "summary": "High-strength Omega-3 fish oil softgels providing 3000mg of fish oil per serving, typically yielding 540mg EPA and 360mg DHA.",
+      "shortDescription": "High-strength Omega-3 fish oil softgels providing 3000mg of fish oil per serving, typically yielding 540mg EPA and 360mg DHA.",
+      "description": [
+        "Omega 3 Fish Oil supplement that provides high-quality omega-3 fatty acids within a softgel. Each 3 capsule serving provides 3000mg of fish oil, typically yielding 540mg of EPA and 360mg of DHA. All our fish oils are tested to ensure they are free from heavy metals.",
+        "Support your everyday health with a high-strength Omega-3 formula, providing 3000mg of fish oil per serving in convenient softgels. Rich in the essential omega-3 fatty acids EPA and DHA, this formula is designed to complement a balanced diet and active lifestyle. EPA and DHA contribute to the normal function of the heart, while DHA contributes to the maintenance of normal brain function and normal vision."
+      ],
+      "suitableFor": [],
+      "keyIngredients": [
+        "Fish oil 3000mg per 3 softgel serving",
+        "EPA 540mg (typical)",
+        "DHA 360mg (typical)"
+      ],
+      "benefits": [
+        "EPA and DHA contribute to the normal function of the heart",
+        "DHA contributes to the maintenance of normal brain function",
+        "DHA contributes to the maintenance of normal vision",
+        "Tested to be free from heavy metals"
+      ],
+      "keyBenefits": [
+        "Heart, Brain & Vision Support",
+        "3000mg High Strength Fish Oil Per Serving",
+        "Tested Free from Heavy Metals"
+      ],
+      "sections": [
+        {
+          "heading": "What is Omega 3?",
+          "body": "Omega 3 is the name for the family of polyunsaturated essential fatty acids found most abundantly in fish. Fish oil is an excellent source of eicosapentaenoic (EPA) acid and docosahexaenoic acid (DHA). Omega 3 has been found to support brain, vision and heart function as well as useful during pregnancy. DHA has a key structural element to the brain, retina and many other body parts. For optimal health, there is an omega 6 to omega 3 ratio that should be adhered to."
+        },
+        {
+          "heading": "What Does Fish Oil Do?",
+          "body": "Fish oil contains EPA and DHA which both contribute to the normal function of the heart."
+        }
+      ],
+      "directions": "Take 3 softgels daily or as directed by a healthcare professional.",
+      "productAdvice": "Do not exceed recommended dose. A food supplement should not be used as a substitute for a varied and balanced diet & healthy lifestyle. Store in a cool dry place, out of the reach and sight of children.",
+      "warnings": [],
+      "allergens": ["Fish"],
+      "specifications": {
+        "form": "Softgels",
+        "quantity": "90 Softgels",
+        "countryOfOrigin": "United Kingdom"
+      },
+      "usage": {
+        "dosage": "Take 3 softgels daily with meals"
+      },
+      "certifications": [
+        "Heavy Metals Tested",
+        "GMP Certified",
+        "UK Manufactured"
+      ],
+      "_verify": [
+        "Pack size of 90 softgels comes from the reference screenshot (3 softgels/day = 30 days).",
+        "15mg vitamin E (22.35iu) and the 'antioxidant protection' benefit appear only in the reference screenshot - add only if VitaBlake's formula also contains vitamin E.",
+        "Source text said 'EHA and DHA' - corrected to EPA.",
+        "'Useful during pregnancy' is kept from your document; consider whether you want to keep this claim."
+      ]
+    },
+    {
+      "id": "vb-003",
+      "sku": "VB-RBY-003",
+      "slug": "vitablake-royal-bee",
+      "title": "VitaBlake Royal Bee",
+      "name": "VitaBlake Royal Bee",
+      "subtitle": "Royal Jelly 600mg",
+      "tagline": "Nature's Daily Defence — Support Your Immunity.",
+      "brand": "VitaBlake",
+      "category": "Immunity & Vitality",
+      "packSize": { "count": 60, "unit": "capsules" },
+      "supply": { "label": "1-2 months supply", "minDays": 30, "maxDays": 60 },
+      "price": null,
+      "currency": "LKR",
+      "stock": {
+        "quantity": 100,
+        "status": "In Stock"
+      },
+      "featured": true,
+      "bestSeller": false,
+      "newArrival": false,
+      "images": [
+        "/images/products/VITA BLAKE ROYAL BEE.jpg",
+        "/images/products/VITA BLAKE ROYAL BEE.jpg",
+        "/images/products/VITA BLAKE ROYAL BEE.jpg",
+        "/images/products/VITA BLAKE ROYAL BEE.jpg",
+        "/images/products/VITA BLAKE ROYAL BEE.jpg"
+      ],
+      "summary": "Pure royal jelly sourced from honey bees at a high 3:1 concentrate, in a vegetable capsule. 600mg royal jelly, 60 capsules.",
+      "shortDescription": "Pure royal jelly sourced from honey bees at a high 3:1 concentrate, in a vegetable capsule. 600mg royal jelly, 60 capsules.",
+      "description": [
+        "Pure royal jelly, sourced from honey bees, at a high concentrate of 3:1 within a vegetable capsule.",
+        "Nourish your natural defences with Royal Jelly 600mg, a premium bee-derived supplement designed to complement a healthy lifestyle and everyday wellness routine. Royal Jelly has long been valued as a naturally nutrient-rich ingredient, making it an appealing choice for health-conscious adults looking to support their everyday immune health and overall vitality.",
+        "This product is particularly suited to busy professionals, active adults and individuals who want convenient nutritional support as part of their daily routine. With 600mg of Royal Jelly and 60 easy-to-use capsules, it provides a simple and convenient way to incorporate this traditional natural ingredient into everyday wellness. A natural choice for those who want to make immune wellness part of their daily self-care routine."
+      ],
+      "suitableFor": [
+        "Health-conscious adults",
+        "Busy professionals",
+        "Active adults"
+      ],
+      "keyIngredients": [
+        "Royal jelly 600mg (3:1 concentrate)"
+      ],
+      "benefits": [
+        "Supports everyday immune health",
+        "Supports overall vitality",
+        "Naturally nutrient-rich bee-derived ingredient",
+        "Simple, convenient daily capsule"
+      ],
+      "keyBenefits": [
+        "600mg Premium Royal Jelly (3:1 Concentrate)",
+        "Supports Everyday Immunity & Vitality",
+        "Naturally Rich in B-Vitamins and Minerals"
+      ],
+      "sections": [
+        {
+          "heading": "What is VitaBlake Royal Bee?",
+          "body": "VitaBlake Royal Bee is made with royal jelly, a milky secretion produced by worker honey bees. It typically contains a mix of protein, amino acids and other nutrients. It gets its name from the fact that bees use it for the development and nurturing of queen bees. Royal jelly generally contains B vitamins, minerals and trace elements such as copper, iron, phosphates, potassium, silicon and sulphur."
+        }
+      ],
+      "directions": "Take 1 - 2 capsules daily with a meal or as directed by a healthcare professional.",
+      "productAdvice": "Do not exceed stated recommended dose. A food supplement should not be used as a substitute for varied diet or healthy lifestyle. Store in a cool dry place, out of the reach and sight of young children.",
+      "warnings": [],
+      "allergens": [],
+      "specifications": {
+        "form": "Capsules",
+        "quantity": "60 Capsules",
+        "countryOfOrigin": "United Kingdom"
+      },
+      "usage": {
+        "dosage": "Take 1-2 capsules daily with a meal"
+      },
+      "certifications": [
+        "100% Honey Bee Sourced",
+        "GMP Certified",
+        "UK Manufactured"
+      ],
+      "_verify": [
+        "The reference screenshot shows 200mg royal jelly concentrate (3:1) per capsule, 100% from honey bees - confirm against your label.",
+        "Source text described 'Vita Blake Royal Bee' itself as the milky secretion - reworded so royal jelly is the ingredient.",
+        "Royal jelly commonly carries an allergy caution (asthma/allergy sufferers) - check whether your label requires one."
+      ]
+    },
+    {
+      "id": "vb-004",
+      "sku": "VB-DMX-004",
+      "slug": "vitablake-dailymax-multivitamin",
+      "title": "VitaBlake DailyMax Multivitamin",
+      "name": "VitaBlake DailyMax Multivitamin",
+      "subtitle": "Complete Multivitamin Supplement",
+      "tagline": null,
+      "brand": "VitaBlake",
+      "category": "Multivitamins",
+      "packSize": { "count": 90, "unit": "capsules" },
+      "supply": { "label": "3 months supply", "minDays": 90, "maxDays": 90 },
+      "price": null,
+      "currency": "LKR",
+      "stock": {
+        "quantity": 100,
+        "status": "In Stock"
+      },
+      "featured": true,
+      "bestSeller": true,
+      "newArrival": false,
+      "images": [
+        "/images/products/VitaBlake DailyMax Multivitamin.JPG",
+        "/images/products/VitaBlake DailyMax Multivitamin.JPG",
+        "/images/products/VitaBlake DailyMax Multivitamin.JPG",
+        "/images/products/VitaBlake DailyMax Multivitamin.JPG",
+        "/images/products/VitaBlake DailyMax Multivitamin.JPG"
+      ],
+      "summary": "A comprehensive daily multivitamin with a powerful, well-balanced blend of vitamins, minerals and nutrients in one convenient capsule.",
+      "shortDescription": "A comprehensive daily multivitamin with a powerful, well-balanced blend of vitamins, minerals and nutrients in one convenient capsule.",
+      "description": [
+        "DailyMax is a comprehensive daily multivitamin supplement designed to support any lifestyle with a powerful, well-balanced blend of essential nutrients - all in one convenient capsule.",
+        "Packed with high-strength vitamins, minerals, and nutrients, DailyMax is unlike typical high street multivitamins. DailyMax delivers significantly higher doses of these key nutrients."
+      ],
+      "suitableFor": [],
+      "keyIngredients": [
+        "Vitamins: A, B1, B2, B3, B5, B6, B12, C, D3, E",
+        "Other nutrients: Biotin, Folic Acid, Choline, PABA, Bioflavonoids",
+        "Minerals: Zinc, Manganese, Potassium, Chromium, Molybdenum",
+        "Amino Acids: L-Glutamic Acid"
+      ],
+      "ingredientGroups": [
+        { "group": "Vitamins", "items": ["A", "B1", "B2", "B3", "B5", "B6", "B12", "C", "D3", "E"] },
+        { "group": "Other nutrients", "items": ["Biotin", "Folic Acid", "Choline", "PABA", "Bioflavonoids"] },
+        { "group": "Minerals", "items": ["Zinc", "Manganese", "Potassium", "Chromium", "Molybdenum"] },
+        { "group": "Amino Acids", "items": ["L-Glutamic Acid"] }
+      ],
+      "benefits": [
+        "General health & immunity",
+        "Beauty",
+        "Energy levels",
+        "Mental health",
+        "Muscular health",
+        "Cells, blood and hormones",
+        "Bone health"
+      ],
+      "keyBenefits": [
+        "Complete 3-Month Daily Multivitamin Supply",
+        "Supports Immunity, Energy, Mental Clarity & Bone Health",
+        "Vegetable Cellulose Capsule — No Unnecessary Binders"
+      ],
+      "sections": [
+        {
+          "heading": "What's Inside DailyMax?",
+          "body": "Each capsule contains a comprehensive blend, including vitamins A, B1, B2, B3, B5, B6, B12, C, D3 and E; biotin, folic acid, choline, PABA and bioflavonoids; the minerals zinc, manganese, potassium, chromium and molybdenum; and the amino acid L-glutamic acid. This unique formula supports everything from immune health to cognitive function, energy, and beauty."
+        },
+        {
+          "heading": "What Does DailyMax Do?",
+          "body": "DailyMax's unique blend of ingredients contribute to a healthy lifestyle in a number of ways. Some of these are listed below."
+        },
+        {
+          "heading": "General Health & Immunity",
+          "body": "DailyMax provides vitamin A, B6, B12, C, D and zinc, which all contribute to the normal function of the immune system. This is alongside vitamin C which contributes to maintenance of the normal function of the immune system during and after physical exercise. Vitamin B2, C, E and manganese and zinc contribute to the protection of cells from oxidative stress. Vitamin B1, B2, B3, B6, B12 and C contribute to normal functioning of the nervous system. Vitamin A, B2 and zinc contribute to the maintenance of normal vision. Vitamin B1 contributes to the normal function of the heart."
+        },
+        {
+          "heading": "Beauty",
+          "body": "DailyMax provides vitamin C which contributes to normal collagen formation for the normal function of blood vessels, bones, cartilage, gums, skin and teeth. Zinc contributes to the maintenance of normal hair and nails. Also in DailyMax is vitamin A, B2, B3 and zinc which all contribute to the maintenance of normal skin."
+        },
+        {
+          "heading": "Energy Levels",
+          "body": "DailyMax provides vitamin B2, B3, B5, B6, B12 and C. All of which contribute to a reduction of tiredness and fatigue, and a normal energy yielding metabolism."
+        },
+        {
+          "heading": "Mental Health",
+          "body": "DailyMax provides vitamin B1, B3, B6, B12 and C which contribute to normal psychological function. Zinc contributes to normal cognitive function."
+        },
+        {
+          "heading": "Muscular Health",
+          "body": "DailyMax provides vitamin D which contributes to the maintenance of normal muscle function. There is also manganese which contributes to the normal function of connective tissue."
+        },
+        {
+          "heading": "Cells, Blood and Hormones",
+          "body": "DailyMax contains a whole host of ingredients that contribute to the normal maintenance of cells, blood and hormones. This includes vitamin A, B2, B3, B6, B12, D, zinc and chromium."
+        },
+        {
+          "heading": "Bone Health",
+          "body": "DailyMax provides vitamin D which contributes to the maintenance of normal bones and teeth. Zinc and manganese also contribute to the maintenance of normal bones."
+        },
+        {
+          "heading": "Why Always Capsules?",
+          "body": "VitaBlake along with manufacturer choose plant-based vegetable cellulose capsules to provide a simple and effective way to deliver our vitamins and supplements. Unlike tablets, capsules can minimise the need for unnecessary binders, additives and sweeteners, allowing us to focus on delivering high-quality active ingredients. Our HPMC vegetable capsules are suitable for a wide range of dietary and lifestyle requirements, providing a convenient and reliable way to take your daily supplements."
+        }
+      ],
+      "directions": "Take 1 capsule daily, or as directed by a healthcare professional.",
+      "productAdvice": "Do not exceed stated recommended dose. A food supplement should not be used as a substitute for a varied, balanced diet or healthy lifestyle. Store in a cool dry place, out of the reach and sight of young children.",
+      "warnings": [
+        "This product contains vitamin A. Do not take if you are pregnant or likely to become pregnant except on the advice of a doctor or ante-natal clinic."
+      ],
+      "allergens": [],
+      "specifications": {
+        "form": "Capsules",
+        "quantity": "90 Capsules",
+        "countryOfOrigin": "United Kingdom"
+      },
+      "usage": {
+        "dosage": "Take 1 capsule daily"
+      },
+      "certifications": [
+        "Comprehensive Multi-Nutrient",
+        "GMP Certified",
+        "UK Manufactured"
+      ],
+      "_verify": [
+        "No tagline was given in the document - add one if you want it.",
+        "Per your note: the first product image shows '90 capsules' without the words 'vegetable capsule', with brand name and logo.",
+        "Reference screenshot says '34 recommended vitamins and minerals' - not used, because the ingredient list above has fewer items."
+      ]
+    },
+    {
+      "id": "vb-005",
+      "sku": "VB-LIV-005",
+      "slug": "vitablake-pureliver-support",
+      "title": "VitaBlake Pureliver Support",
+      "name": "VitaBlake Pureliver Support",
+      "subtitle": "Liver Health Supplement",
+      "tagline": "Liver Support + Antioxidant Support + Nutritional Wellness",
+      "brand": "VitaBlake",
+      "category": "Liver Health",
+      "packSize": { "count": 60, "unit": "capsules" },
+      "supply": { "label": "1 month supply", "minDays": 30, "maxDays": 30 },
+      "price": null,
+      "currency": "LKR",
+      "stock": {
+        "quantity": 100,
+        "status": "In Stock"
+      },
+      "featured": true,
+      "bestSeller": true,
+      "newArrival": false,
+      "images": [
+        "/images/products/VitaBlake Pureliver Support.JPG",
+        "/images/products/VitaBlake Pureliver Support.JPG",
+        "/images/products/VitaBlake Pureliver Support.JPG",
+        "/images/products/VitaBlake Pureliver Support.JPG",
+        "/images/products/VitaBlake Pureliver Support.JPG"
+      ],
+      "summary": "A unique blend of amino acids and essential vitamins designed to aid natural liver function, with choline which contributes to normal liver function.",
+      "shortDescription": "A unique blend of amino acids and essential vitamins designed to aid natural liver function, with choline which contributes to normal liver function.",
+      "description": [
+        "Unique blend of amino acids and essential vitamins designed to aid natural liver function. This formula contains choline which contributes to normal liver function, all within a vegan capsule."
+      ],
+      "suitableFor": [],
+      "keyIngredients": [
+        "Choline",
+        "Vitamin B2, B3, B5, B6, B12",
+        "Zinc",
+        "Amino acids",
+        "Antioxidants and flavonoids",
+        "Medicinal mushrooms",
+        "Plant extracts"
+      ],
+      "benefits": [
+        "Supports normal liver function",
+        "Contributes to the normal function of the immune system",
+        "Contributes to the protection of cells from oxidative stress",
+        "Contributes to the reduction of tiredness and fatigue"
+      ],
+      "keyBenefits": [
+        "Choline Contributes to Normal Liver Function",
+        "Antioxidants & Flavonoids Protection",
+        "Reduces Tiredness & Fatigue"
+      ],
+      "sections": [
+        {
+          "heading": "Supports Normal Liver Function",
+          "body": "This formula contains choline which contributes to normal liver function. The liver has over 500 vital functions and is responsible for the metabolism of countless components in the body. It's important to provide this crucial organ with the support and tools it needs to operate and maintain balance in the body. VitaBlake Pureliver contains a powerful mixture of antioxidants, flavonoids, vitamins, minerals, amino acids, medicinal mushrooms, and plant extracts."
+        },
+        {
+          "heading": "Comprehensive Multi-Nutrient Blend",
+          "body": "This VitaBlake Pureliver also provides vitamin B6, vitamin B12 and zinc, which contribute to the normal function of the immune system. Zinc and vitamin B2 also contribute to the protection of cells from oxidative stress, while vitamins B2, B3, B5, B6 and B12 contribute to the reduction of tiredness and fatigue. This supplement can support a balanced diet and healthy lifestyle."
+        },
+        {
+          "heading": "Daily Liver Wellness",
+          "body": "Your liver plays an essential role in many everyday processes within the body. Supporting it with key nutrients can be an important part of maintaining overall wellbeing. Our VitaBlake Pureliver formula combines choline, vitamins, minerals, amino acids, antioxidants, botanical extracts and mushroom extracts in one convenient daily supplement. Choline contributes to the maintenance of normal liver function, while selected vitamins and minerals support normal energy-yielding metabolism and protection of cells from oxidative stress."
+        }
+      ],
+      "directions": "Take 2 capsules per day, 1 with breakfast and 1 with lunch or as directed by a professional. Not suitable for children under 12.",
+      "productAdvice": "Do not exceed recommended stated dose. A food supplement should not be used as a substitute for a varied diet or healthy lifestyle. Store in a cool dry place, out of the reach and sight of young children.",
+      "warnings": [
+        "Not suitable for children under 12."
+      ],
+      "allergens": [],
+      "specifications": {
+        "form": "Capsules",
+        "quantity": "60 Capsules",
+        "countryOfOrigin": "United Kingdom"
+      },
+      "usage": {
+        "dosage": "Take 2 capsules per day (1 with breakfast, 1 with lunch)"
+      },
+      "certifications": [
+        "Botanical & Mushroom Extract Blend",
+        "GMP Certified",
+        "UK Manufactured"
+      ],
+      "_verify": [
+        "Per your note: pack shown as '60 capsules' only (no 'vegetable'), and the '120mg maitake mushroom and reishi mushroom' line is NOT used.",
+        "The description still says 'within a vegan capsule' because it is in your copy - remove it if you want to avoid that wording entirely.",
+        "Reference screenshot lists extra benefits (fat & lipid metabolism, blood glucose, etc.) that are not in your text - left out."
+      ]
+    },
+    {
+      "id": "vb-006",
+      "sku": "VB-KDS-006",
+      "slug": "vitablake-smart-kids-multivitamin",
+      "title": "VitaBlake Smart Kids Multivitamin",
+      "name": "VitaBlake Smart Kids Multivitamin",
+      "subtitle": "Children's Multivitamin Supplement",
+      "tagline": "Everyday Nutrition for Growing Smart Kids",
+      "brand": "VitaBlake",
+      "category": "Kids' Health",
+      "packSize": { "count": 120, "unit": "capsules" },
+      "supply": { "label": "40-120 days supply, depending on age", "minDays": 40, "maxDays": 120 },
+      "price": null,
+      "currency": "LKR",
+      "stock": {
+        "quantity": 100,
+        "status": "In Stock"
+      },
+      "featured": true,
+      "bestSeller": false,
+      "newArrival": false,
+      "images": [
+        "/images/products/VitaBlake Smart Kids Multivitamin.JPG",
+        "/images/products/VitaBlake Smart Kids Multivitamin.JPG",
+        "/images/products/VitaBlake Smart Kids Multivitamin.JPG",
+        "/images/products/VitaBlake Smart Kids Multivitamin.JPG",
+        "/images/products/VitaBlake Smart Kids Multivitamin.JPG"
+      ],
+      "summary": "A children's multivitamin with essential vitamins and minerals to support any diet. Capsules can be opened and added to a meal or drink.",
+      "shortDescription": "A children's multivitamin with essential vitamins and minerals to support any diet. Capsules can be opened and added to a meal or drink.",
+      "description": [
+        "VitaBlake Smart Kids is a multivitamin supplement tailored towards children. Each capsule contains a host of essential vitamins and minerals that are designed to support any diet.",
+        "Give your child a strong nutritional foundation with VitaBlake Smart Kids, a carefully formulated children's multivitamin designed to complement a varied and balanced diet. Providing a convenient combination of essential vitamins and minerals, it supports the nutritional needs of growing, active children, including normal energy-yielding metabolism, immune function, and the maintenance of normal bones and teeth. Ideal for busy school days, active lifestyles and everyday wellbeing, this convenient 120-capsule formula offers parents a simple way to incorporate nutritional support into their child's daily routine, helping support healthy growth and development as they learn, play and grow."
+      ],
+      "suitableFor": [
+        "Growing, active children",
+        "Ages 4 and over"
+      ],
+      "keyIngredients": [
+        "Vitamin A, B1, B2, B3, B5, B6, B12, C, E",
+        "Manganese",
+        "Zinc",
+        "Iodine"
+      ],
+      "benefits": [
+        "Immune system support",
+        "Helps reduce tiredness and fatigue",
+        "Normal energy-yielding metabolism",
+        "Protection of cells from oxidative stress",
+        "Normal functioning of the nervous system",
+        "Maintenance of normal bones",
+        "Maintenance of normal vision"
+      ],
+      "keyBenefits": [
+        "Tailored Nutritional Support for Children (Ages 4+)",
+        "Capsules Can Be Opened & Mixed in Meal/Drink",
+        "Supports Healthy Immune System & Bone Growth"
+      ],
+      "sections": [
+        {
+          "heading": "Ideal For Children",
+          "body": "If your little ones don't like swallowing capsules, these are easily opened and the contents can be added to a meal or drink."
+        },
+        {
+          "heading": "General Health",
+          "body": "VitaBlake Smart Kids provides vitamin A, B6, B12 and C, which all contribute to the normal function of the immune system. This is alongside vitamin C which contributes to the maintenance of the normal function of the immune system during and after intense physical exercise. Vitamins B2, C and E, and manganese and zinc contribute to the protection of cells from oxidative stress. Vitamins B1, B2, B3, B6, B12 and C, and iodine contribute to normal functioning of the nervous system. Vitamin A and B2 contribute to the maintenance of normal vision. Vitamin B1 contributes to the normal function of the heart."
+        },
+        {
+          "heading": "Energy Levels",
+          "body": "VitaBlake Smart Kids provides vitamin B2, B3, B5, B6, B12 and C. All of which contribute to a reduction of tiredness and fatigue, and a normal energy yielding metabolism."
+        },
+        {
+          "heading": "Bone Health",
+          "body": "Manganese contributes to the maintenance of normal bones."
+        }
+      ],
+      "directions": "Take with a meal.",
+      "dosageByAge": [
+        { "age": "4-6 years", "dose": "1 capsule daily (open capsule and add powder to liquid of choice)", "supplyDays": 120 },
+        { "age": "7-13 years", "dose": "2 capsules daily", "supplyDays": 60 },
+        { "age": "14+ years", "dose": "3 capsules daily", "supplyDays": 40 }
+      ],
+      "productAdvice": "Do not exceed recommended dose. A food supplement should not be used as a substitute for a varied diet or healthy lifestyle. Store in a cool dry place, out of the reach and sight of young children.",
+      "warnings": [],
+      "allergens": [],
+      "specifications": {
+        "form": "Capsules",
+        "quantity": "120 Capsules",
+        "countryOfOrigin": "United Kingdom"
+      },
+      "usage": {
+        "dosage": "Take with a meal according to age recommendations"
+      },
+      "certifications": [
+        "Child Safe Formula",
+        "GMP Certified",
+        "UK Manufactured"
+      ],
+      "_verify": [
+        "Per your note, only the term 'capsule' is used (never 'vegetable capsule' or 'vegan').",
+        "The empty 'What Does ... Do?' section is a heading only - your document has it as a lead-in to General Health / Energy Levels / Bone Health. Remove or merge it in your template.",
+        "Supply days per age group are calculated from 120 capsules and the dosage table.",
+        "Reference screenshots mention extra ingredients (iron, calcium, magnesium, folate, biotin, selenium, chromium) that are not in your document - left out."
+      ]
+    },
+    {
+      "id": "vb-007",
+      "sku": "VB-TRG-007",
+      "slug": "vitablake-triaglow",
+      "title": "VitaBlake Triaglow",
+      "name": "VitaBlake Triaglow",
+      "subtitle": "Hair, Skin & Nails Supplement",
+      "tagline": "Beauty from Within",
+      "brand": "VitaBlake",
+      "category": "Beauty",
+      "packSize": { "count": 120, "unit": "capsules" },
+      "supply": { "label": "40-120 days supply, based on daily intake", "minDays": 40, "maxDays": 120 },
+      "price": null,
+      "currency": "LKR",
+      "stock": {
+        "quantity": 100,
+        "status": "In Stock"
+      },
+      "featured": true,
+      "bestSeller": false,
+      "newArrival": false,
+      "images": [
+        "/images/products/VitaBlake Triaglow.JPG",
+        "/images/products/VitaBlake Triaglow.JPG",
+        "/images/products/VitaBlake Triaglow.JPG",
+        "/images/products/VitaBlake Triaglow.JPG",
+        "/images/products/VitaBlake Triaglow.JPG"
+      ],
+      "summary": "A 3-in-1 beauty formula with vitamins, minerals, OptiMSM, spirulina, bamboo and hyaluronic acid to support healthy hair, skin and nails.",
+      "shortDescription": "A 3-in-1 beauty formula with vitamins, minerals, OptiMSM, spirulina, bamboo and hyaluronic acid to support healthy hair, skin and nails.",
+      "description": [
+        "VitaBlake Triaglow is a supplement with a difference. Our unique blend brings together a balanced blend of vitamins and minerals that contribute to the maintenance of healthy hair, nails and glowing skin. Our VitaBlake Triaglow formula also contains OptiMSM, spirulina, bamboo and hyaluronic acid. These incredible ingredients help us create a beauty supplement like no other, supplying a host of natural beautifying nutrients."
+      ],
+      "suitableFor": [
+        "Health-conscious adults seeking a convenient beauty-from-within routine"
+      ],
+      "keyIngredients": [
+        "Vitamin A, B2, B3",
+        "Biotin",
+        "Zinc",
+        "Selenium",
+        "Iodine",
+        "Copper",
+        "OptiMSM",
+        "Spirulina",
+        "Bamboo",
+        "Hyaluronic acid"
+      ],
+      "benefits": [
+        "Maintenance of healthy hair",
+        "Maintenance of glowing, healthy skin",
+        "Maintenance of healthy nails",
+        "3-in-1 hair, skin and nails formula"
+      ],
+      "keyBenefits": [
+        "3-in-1 Hair, Skin & Nails Formula",
+        "OptiMSM + Spirulina + Bamboo + Hyaluronic Acid",
+        "Nourishes Glowing Skin & Strong Hair/Nails"
+      ],
+      "sections": [
+        {
+          "heading": "What Does VitaBlake Triaglow Do?",
+          "body": "VitaBlake Triaglow provides a blend of carefully selected vitamins and minerals that contribute to the healthy glowing maintenance of skin, hair and nails. That's why we've included vitamin A, B2, B3, zinc, selenium, iodine and copper as they all contribute to the glowing maintenance of skin. Selenium, zinc and copper also contribute to the maintenance of hair, with selenium and zinc contributing to the healthy maintenance of nails."
+        },
+        {
+          "heading": "3-in-1 Beauty Formula",
+          "body": "Nourish your beauty from within with a comprehensive 3-in-1 formula designed to support hair, skin and nails in one convenient daily supplement. Carefully selected vitamins and minerals, including key nutrients such as biotin, zinc and selenium, provide nutritional support for the normal maintenance of healthy-looking hair, skin and nails. Ideal for health-conscious adults seeking a convenient beauty-from-within routine, this VitaBlake Triaglow formula is a simple way to complement a balanced diet and support your everyday beauty and wellbeing - helping you care for hair, skin and nails from within, all in one formula."
+        }
+      ],
+      "directions": "Take 1-3 capsules daily or as directed by a healthcare professional. Drink plenty of water (2+ litres a day) when supplementing with hyaluronic acid.",
+      "productAdvice": "Do not exceed stated recommended dose. A food supplement should not be used as a substitute for a varied and balanced diet & healthy lifestyle. Store in a cool dry place out of the reach and sight of young children.",
+      "warnings": [
+        "This product contains vitamin A. Do not take if you are pregnant or likely to become pregnant except on the advice of a doctor or ante-natal clinic."
+      ],
+      "allergens": [],
+      "specifications": {
+        "form": "Capsules",
+        "quantity": "120 Capsules",
+        "countryOfOrigin": "United Kingdom"
+      },
+      "usage": {
+        "dosage": "Take 1-3 capsules daily with water"
+      },
+      "certifications": [
+        "OptiMSM & Hyaluronic Acid Formula",
+        "GMP Certified",
+        "UK Manufactured"
+      ],
+      "_verify": [
+        "Pack size of 120 capsules and the 40-120 days supply come from the reference screenshot (1-3 capsules/day).",
+        "100mg OptiMSM per capsule comes from the reference screenshot (spelled 'OpiMSM' there) - confirm against your label.",
+        "Source text said 'perfect maintenance of hair' - changed to 'maintenance of hair' to keep the claim in line with standard wording."
+      ]
+    }
+  ]
+}

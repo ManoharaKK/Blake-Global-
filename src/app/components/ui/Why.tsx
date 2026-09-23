@@ -62,7 +62,7 @@ export default function Why() {
     <section id="why" className="py-24 bg-slate-50/50 border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-sm font-semibold tracking-wider text-[#5B6E3F] uppercase">Why Choose Us</span>
+          <span className="text-sm font-semibold tracking-wider text-[#4174D6] uppercase">Why Choose Us</span>
           <h2 className="mt-2 text-3xl sm:text-4xl font-bold text-gray-900 tracking-tight">
             Why Blake Global?
           </h2>
@@ -78,10 +78,10 @@ export default function Why() {
               className="bg-white p-8 border border-gray-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group"
             >
               <div>
-                <div className="w-12 h-12 bg-[#5B6E3F] text-white flex items-center justify-center font-bold mb-6 shadow-md group-hover:scale-105 transition-transform">
+                <div className="w-12 h-12 bg-[#4174D6] text-white flex items-center justify-center font-bold mb-6 shadow-md group-hover:scale-105 transition-transform">
                   {pt.icon}
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-[#5B6E3F] transition-colors">
+                <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-[#4174D6] transition-colors">
                   {pt.title}
                 </h3>
                 <p className="text-sm text-gray-600 leading-relaxed">

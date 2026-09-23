@@ -8,14 +8,14 @@ export default function RefundPolicyPage() {
         
         {/* Breadcrumb */}
         <nav className="flex items-center gap-2 text-sm text-gray-500 mb-6">
-          <Link href="/" className="hover:text-[#5B6E3F] transition-colors">Home</Link>
+          <Link href="/" className="hover:text-[#4174D6] transition-colors">Home</Link>
           <span>/</span>
           <span className="text-gray-900 font-medium">Refund & Returns Policy</span>
         </nav>
 
         {/* Article Container */}
         <div className="bg-white p-8 sm:p-12 border border-gray-200 shadow-sm rounded-none">
-          <span className="text-xs font-bold uppercase tracking-widest text-[#5B6E3F]">
+          <span className="text-xs font-bold uppercase tracking-widest text-[#4174D6]">
             Blake Global (PVT) LTD
           </span>
           <h1 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mt-2 mb-8 tracking-tight border-b border-gray-100 pb-4">
@@ -26,7 +26,7 @@ export default function RefundPolicyPage() {
             
             {/* General Policy */}
             <section>
-              <h2 className="text-xl font-bold text-gray-900 mb-3 border-l-4 border-[#5B6E3F] pl-3">
+              <h2 className="text-xl font-bold text-gray-900 mb-3 border-l-4 border-[#4174D6] pl-3">
                 General Policy
               </h2>
               <p>
@@ -36,7 +36,7 @@ export default function RefundPolicyPage() {
 
             {/* Return Eligibility */}
             <section>
-              <h2 className="text-xl font-bold text-gray-900 mb-3 border-l-4 border-[#5B6E3F] pl-3">
+              <h2 className="text-xl font-bold text-gray-900 mb-3 border-l-4 border-[#4174D6] pl-3">
                 Return Eligibility
               </h2>
               <p className="mb-2">A return will only be accepted if:</p>
@@ -50,7 +50,7 @@ export default function RefundPolicyPage() {
 
             {/* Non-Returnable Items */}
             <section>
-              <h2 className="text-xl font-bold text-gray-900 mb-3 border-l-4 border-[#5B6E3F] pl-3">
+              <h2 className="text-xl font-bold text-gray-900 mb-3 border-l-4 border-[#4174D6] pl-3">
                 Non‑Returnable Items
               </h2>
               <p className="mb-2">We cannot accept returns for:</p>
@@ -64,7 +64,7 @@ export default function RefundPolicyPage() {
 
             {/* Defective or Incorrect Items */}
             <section>
-              <h2 className="text-xl font-bold text-gray-900 mb-3 border-l-4 border-[#5B6E3F] pl-3">
+              <h2 className="text-xl font-bold text-gray-900 mb-3 border-l-4 border-[#4174D6] pl-3">
                 Defective or Incorrect Items
               </h2>
               <p className="mb-2">If you receive a defective, damaged, or incorrect product:</p>
@@ -77,7 +77,7 @@ export default function RefundPolicyPage() {
 
             {/* Refund Process */}
             <section>
-              <h2 className="text-xl font-bold text-gray-900 mb-3 border-l-4 border-[#5B6E3F] pl-3">
+              <h2 className="text-xl font-bold text-gray-900 mb-3 border-l-4 border-[#4174D6] pl-3">
                 Refund Process
               </h2>
               <p className="mb-2">If your return is approved:</p>
@@ -90,7 +90,7 @@ export default function RefundPolicyPage() {
 
             {/* Cancellations */}
             <section>
-              <h2 className="text-xl font-bold text-gray-900 mb-3 border-l-4 border-[#5B6E3F] pl-3">
+              <h2 className="text-xl font-bold text-gray-900 mb-3 border-l-4 border-[#4174D6] pl-3">
                 Cancellations
               </h2>
               <p>
@@ -100,20 +100,20 @@ export default function RefundPolicyPage() {
 
             {/* Contact for Returns */}
             <section className="pt-6 border-t border-gray-100">
-              <h2 className="text-xl font-bold text-gray-900 mb-3 border-l-4 border-[#5B6E3F] pl-3">
+              <h2 className="text-xl font-bold text-gray-900 mb-3 border-l-4 border-[#4174D6] pl-3">
                 Contact for Returns
               </h2>
               <p className="mb-4">To initiate a return or inquire about an order:</p>
               <div className="bg-slate-50 p-6 border border-gray-200 rounded-none space-y-3">
                 <div className="flex items-center gap-3">
                   <span className="font-bold text-gray-900">📧 Email:</span>
-                  <a href="mailto:returns@blakegloballtd.com" className="text-[#5B6E3F] font-semibold hover:underline">
+                  <a href="mailto:returns@blakegloballtd.com" className="text-[#4174D6] font-semibold hover:underline">
                     returns@blakegloballtd.com
                   </a>
                 </div>
                 <div className="flex items-center gap-3">
                   <span className="font-bold text-gray-900">💬 WhatsApp:</span>
-                  <a href="https://wa.me/94771234567" target="_blank" rel="noopener noreferrer" className="text-[#5B6E3F] font-semibold hover:underline">
+                  <a href="https://wa.me/94771234567" target="_blank" rel="noopener noreferrer" className="text-[#4174D6] font-semibold hover:underline">
                     +94 77 123 4567
                   </a>
                 </div>
