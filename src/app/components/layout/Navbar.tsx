@@ -20,12 +20,12 @@ export default function Navbar() {
 
         {/* Desktop Navigation Links */}
         <nav className="hidden md:flex items-center gap-6 text-sm font-semibold text-gray-700">
-          <Link href="/#home" className="hover:text-[#5B6E3F] transition-colors">Home</Link>
-          <Link href="/#products" className="hover:text-[#5B6E3F] transition-colors">Products</Link>
-          <Link href="/#why" className="hover:text-[#5B6E3F] transition-colors">Why Us</Link>
-          <Link href="/#mission" className="hover:text-[#5B6E3F] transition-colors">Mission</Link>
-          <Link href="/#about" className="hover:text-[#5B6E3F] transition-colors">About</Link>
-          <Link href="/#contact" className="hover:text-[#5B6E3F] transition-colors">Contact</Link>
+          <Link href="/#home" className="hover:text-[#4174D6] transition-colors">Home</Link>
+          <Link href="/#products" className="hover:text-[#4174D6] transition-colors">Products</Link>
+          <Link href="/#why" className="hover:text-[#4174D6] transition-colors">Why Us</Link>
+          <Link href="/#mission" className="hover:text-[#4174D6] transition-colors">Mission</Link>
+          <Link href="/#about" className="hover:text-[#4174D6] transition-colors">About</Link>
+          <Link href="/#contact" className="hover:text-[#4174D6] transition-colors">Contact</Link>
         </nav>
 
         {/* Mobile Hamburger Toggle Button */}
@@ -33,7 +33,7 @@ export default function Navbar() {
           <button
             onClick={toggleMenu}
             aria-label="Toggle navigation menu"
-            className="p-2 text-gray-700 hover:text-[#5B6E3F] hover:bg-gray-100/50 transition-colors rounded-none focus:outline-none"
+            className="p-2 text-gray-700 hover:text-[#4174D6] hover:bg-gray-100/50 transition-colors rounded-none focus:outline-none"
           >
             {isOpen ? (
               /* Close (X) Icon */
@@ -57,42 +57,42 @@ export default function Navbar() {
           <Link
             href="/#home"
             onClick={closeMenu}
-            className="block px-3 py-2 text-base font-semibold text-gray-800 hover:text-white hover:bg-[#5B6E3F] transition-all rounded-none"
+            className="block px-3 py-2 text-base font-semibold text-gray-800 hover:text-white hover:bg-[#4174D6] transition-all rounded-none"
           >
             Home
           </Link>
           <Link
             href="/#products"
             onClick={closeMenu}
-            className="block px-3 py-2 text-base font-semibold text-gray-800 hover:text-white hover:bg-[#5B6E3F] transition-all rounded-none"
+            className="block px-3 py-2 text-base font-semibold text-gray-800 hover:text-white hover:bg-[#4174D6] transition-all rounded-none"
           >
             Products
           </Link>
           <Link
             href="/#why"
             onClick={closeMenu}
-            className="block px-3 py-2 text-base font-semibold text-gray-800 hover:text-white hover:bg-[#5B6E3F] transition-all rounded-none"
+            className="block px-3 py-2 text-base font-semibold text-gray-800 hover:text-white hover:bg-[#4174D6] transition-all rounded-none"
           >
             Why Us
           </Link>
           <Link
             href="/#mission"
             onClick={closeMenu}
-            className="block px-3 py-2 text-base font-semibold text-gray-800 hover:text-white hover:bg-[#5B6E3F] transition-all rounded-none"
+            className="block px-3 py-2 text-base font-semibold text-gray-800 hover:text-white hover:bg-[#4174D6] transition-all rounded-none"
           >
             Mission
           </Link>
           <Link
             href="/#about"
             onClick={closeMenu}
-            className="block px-3 py-2 text-base font-semibold text-gray-800 hover:text-white hover:bg-[#5B6E3F] transition-all rounded-none"
+            className="block px-3 py-2 text-base font-semibold text-gray-800 hover:text-white hover:bg-[#4174D6] transition-all rounded-none"
           >
             About
           </Link>
           <Link
             href="/#contact"
             onClick={closeMenu}
-            className="block px-3 py-2 text-base font-semibold text-gray-800 hover:text-white hover:bg-[#5B6E3F] transition-all rounded-none"
+            className="block px-3 py-2 text-base font-semibold text-gray-800 hover:text-white hover:bg-[#4174D6] transition-all rounded-none"
           >
             Contact
           </Link>

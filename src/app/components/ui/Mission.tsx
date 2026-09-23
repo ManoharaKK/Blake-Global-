@@ -7,7 +7,7 @@ export default function Mission() {
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-sm font-semibold tracking-wider text-[#5B6E3F] uppercase">
+          <span className="text-sm font-semibold tracking-wider text-[#4174D6] uppercase">
             Purpose & Values
           </span>
           <h2 className="mt-2 text-3xl sm:text-4xl font-bold text-gray-900 tracking-tight">
@@ -24,13 +24,13 @@ export default function Mission() {
           {/* Featured Image Column */}
           <div className="lg:col-span-5 relative min-h-[360px] sm:min-h-[440px] bg-gray-900 border border-gray-200 shadow-sm overflow-hidden rounded-none">
             <img
-              src="/images/home/Hero2.png"
-              alt="Blake Global Mission & Vision"
+              src="/images/products/VitaBlake Omega 3.JPG"
+              alt="VitaBlake Omega 3 - Blake Global Mission & Vision"
               className="w-full h-full object-cover rounded-none"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent pointer-events-none" />
             <div className="absolute bottom-6 left-6 right-6 text-white z-10">
-              <span className="text-xs font-bold uppercase tracking-widest px-3 py-1 bg-[#5B6E3F] text-white border border-[#5B6E3F] rounded-none inline-block mb-2">
+              <span className="text-xs font-bold uppercase tracking-widest px-3 py-1 bg-[#4174D6] text-white border border-[#4174D6] rounded-none inline-block mb-2">
                 Blake Global UK & Sri Lanka
               </span>
               <h3 className="text-xl font-bold">World-Class UK Nutrition</h3>
@@ -41,7 +41,7 @@ export default function Mission() {
           <div className="lg:col-span-7 flex flex-col gap-8 justify-between">
             
             {/* Mission Card */}
-            <div className="bg-white p-8 border border-gray-200 shadow-sm hover:shadow-md hover:border-[#5B6E3F] transition-all duration-200 rounded-none flex-1 flex flex-col justify-between">
+            <div className="bg-white p-8 border border-gray-200 shadow-sm hover:shadow-md hover:border-[#4174D6] transition-all duration-200 rounded-none flex-1 flex flex-col justify-between">
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 tracking-tight mb-4">
                   Our Mission
@@ -50,13 +50,13 @@ export default function Mission() {
                   To deliver safe, high‑quality, UK‑manufactured vitamins and wellness supplements to Sri Lankan families through trusted sourcing, transparent processes, and science‑driven formulations. We aim to make world‑class nutrition accessible, reliable, and affordable across Sri Lanka.
                 </p>
               </div>
-              <div className="mt-6 pt-4 border-t border-gray-100 flex items-center gap-2 text-xs font-semibold text-[#5B6E3F] uppercase tracking-wider">
+              <div className="mt-6 pt-4 border-t border-gray-100 flex items-center gap-2 text-xs font-semibold text-[#4174D6] uppercase tracking-wider">
                 <span>Quality</span> • <span>Integrity</span> • <span>Accessibility</span>
               </div>
             </div>
 
             {/* Vision Card */}
-            <div className="bg-white p-8 border border-gray-200 shadow-sm hover:shadow-md hover:border-[#5B6E3F] transition-all duration-200 rounded-none flex-1 flex flex-col justify-between">
+            <div className="bg-white p-8 border border-gray-200 shadow-sm hover:shadow-md hover:border-[#4174D6] transition-all duration-200 rounded-none flex-1 flex flex-col justify-between">
               <div>
                 <h3 className="text-2xl font-bold text-gray-900 tracking-tight mb-4">
                   Our Vision
