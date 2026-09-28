@@ -137,24 +137,28 @@ export default async function ProductDetailPage({ params }: Props) {
                   )}
                 </div>
 
-                {/* Supply & Pack Details Banner */}
-                <div className="flex flex-wrap items-center gap-4 p-4 bg-slate-50 border border-gray-200 mb-6">
-                  {packLabel && (
-                    <div className="flex items-center gap-2">
-                      <span className="text-xs text-gray-500 uppercase font-semibold">Pack Size:</span>
-                      <span className="text-xs font-bold text-gray-900 bg-white px-2.5 py-1 border border-gray-200">{packLabel}</span>
-                    </div>
-                  )}
-                  {supplyLabel && (
-                    <div className="flex items-center gap-2">
-                      <span className="text-xs text-gray-500 uppercase font-semibold">Supply:</span>
-                      <span className="text-xs font-bold text-[#4174D6] bg-white px-2.5 py-1 border border-[#4174D6]/30">{supplyLabel}</span>
-                    </div>
-                  )}
-                  <div className="flex items-center gap-2">
-                    <span className="text-xs text-gray-500 uppercase font-semibold">Price:</span>
-                    <span className="text-xs font-bold text-gray-900 bg-white px-2.5 py-1 border border-gray-200">
-                      {product.price ? `${product.price} ${product.currency || 'LKR'}` : 'Inquire for Pricing'}
+                {/* Supply, Pack & Price Details Banner */}
+                <div className="py-3 mb-6 flex flex-wrap items-center justify-between gap-4 border-y border-gray-200">
+                  <div className="flex flex-wrap items-center gap-6">
+                    {packLabel && (
+                      <div className="flex items-center gap-1.5 text-xs">
+                        <span className="text-gray-500 uppercase font-semibold">Pack Size:</span>
+                        <span className="font-bold text-gray-900">{packLabel}</span>
+                      </div>
+                    )}
+                    {supplyLabel && (
+                      <div className="flex items-center gap-1.5 text-xs">
+                        <span className="text-gray-500 uppercase font-semibold">Supply:</span>
+                        <span className="font-bold text-[#4174D6]">{supplyLabel}</span>
+                      </div>
+                    )}
+                  </div>
+                  
+                  {/* Retail Price Callout */}
+                  <div className="flex items-baseline gap-2">
+                    <span className="text-xs font-bold uppercase text-gray-500">Retail Price (MRP):</span>
+                    <span className="text-2xl font-black text-[#4174D6]">
+                      {product.price ? `Rs. ${product.price.toLocaleString('en-US')}.00` : 'Inquire for Pricing'}
                     </span>
                   </div>
                 </div>
@@ -368,6 +372,81 @@ export default async function ProductDetailPage({ params }: Props) {
             </div>
           </div>
         )}
+
+        {/* Official VitaBlake Price List Table Section */}
+        <div className="bg-white p-6 sm:p-10 border border-gray-200 shadow-md mb-16">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-6 pb-4 border-b border-gray-200 gap-4">
+            <div>
+              <span className="text-xs font-black text-red-600 uppercase tracking-widest mb-1 block">
+                PRICE LIST
+              </span>
+              <h3 className="text-xl sm:text-2xl font-black text-gray-900 tracking-tight">
+                VitaBlake Official Retail Price List (MRP)
+              </h3>
+              <p className="text-xs text-gray-600 mt-1">
+                UK Formulated & Manufactured • All prices in Sri Lankan Rupees (LKR)
+              </p>
+            </div>
+            <Link
+              href="/#contact"
+              className="inline-flex items-center justify-center px-4 py-2 bg-[#4174D6] text-white text-xs font-bold uppercase tracking-wider hover:bg-black transition-colors self-start sm:self-auto"
+            >
+              Order Products
+            </Link>
+          </div>
+
+          <div className="overflow-x-auto">
+            <table className="w-full text-left border-collapse border border-gray-300">
+              <thead>
+                <tr className="bg-yellow-400 text-gray-900 font-extrabold text-xs sm:text-sm uppercase">
+                  <th className="p-3 border border-gray-300 text-center w-12">#</th>
+                  <th className="p-3 border border-gray-300">PRODUCT CODE</th>
+                  <th className="p-3 border border-gray-300">PRODUCT NAME</th>
+                  <th className="p-3 border border-gray-300">CAPSULES</th>
+                  <th className="p-3 border border-gray-300 text-right">RETAIL PRICE (MRP)</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-200 text-xs sm:text-sm font-medium">
+                {[
+                  { num: 1, code: 'VB001', name: 'Daily Max', fullTitle: 'VitaBlake DailyMax Multivitamin', capsules: '90 Capsules', price: '6,980.00', slug: 'vitablake-dailymax-multivitamin' },
+                  { num: 2, code: 'VB002', name: 'Pure Liver', fullTitle: 'VitaBlake Pureliver Support', capsules: '60 Capsules', price: '8,200.00', slug: 'vitablake-pureliver-support' },
+                  { num: 3, code: 'VB003', name: 'Triaglow', fullTitle: 'VitaBlake Triaglow', capsules: '120 Capsules', price: '7,600.00', slug: 'vitablake-triaglow' },
+                  { num: 4, code: 'VB004', name: 'Collagen Ultra', fullTitle: 'VitaBlake Collagen Ultra', capsules: '60 Capsules', price: '6,100.00', slug: 'vitablake-collagen-ultra' },
+                  { num: 5, code: 'VB005', name: 'Smart Kids', fullTitle: 'VitaBlake Smart Kids Multivitamin', capsules: '120 Capsules', price: '5,150.00', slug: 'vitablake-smart-kids-multivitamin' },
+                  { num: 6, code: 'VB006', name: 'Omega 3', fullTitle: 'VitaBlake Omega 3', capsules: '90 Softgels', price: '8,800.00', slug: 'vitablake-omega-3' },
+                  { num: 7, code: 'VB007', name: 'Royal Bee', fullTitle: 'VitaBlake Royal Bee', capsules: '60 Capsules', price: '4,960.00', slug: 'vitablake-royal-bee' },
+                ].map((item) => {
+                  const isCurrent = product.slug === item.slug || product.sku === item.code;
+                  return (
+                    <tr
+                      key={item.code}
+                      className={`transition-colors ${
+                        isCurrent
+                          ? 'bg-[#4174D6]/10 font-bold border-l-4 border-l-[#4174D6]'
+                          : 'hover:bg-slate-50'
+                      }`}
+                    >
+                      <td className="p-3 border border-gray-300 text-center font-bold text-gray-700">{item.num}</td>
+                      <td className="p-3 border border-gray-300 font-mono font-bold text-[#4174D6]">{item.code}</td>
+                      <td className="p-3 border border-gray-300 font-semibold text-gray-900">
+                        <Link href={`/product/${item.slug}`} className="hover:underline flex items-center gap-2">
+                          <span>{item.name}</span>
+                          {isCurrent && (
+                            <span className="text-[10px] bg-[#4174D6] text-white px-2 py-0.5 font-bold uppercase">Viewing</span>
+                          )}
+                        </Link>
+                      </td>
+                      <td className="p-3 border border-gray-300 text-gray-700">{item.capsules}</td>
+                      <td className="p-3 border border-gray-300 text-right font-black text-gray-900">
+                        Rs. {item.price}
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        </div>
 
         {/* Manufacturing Quality Assurance Standards Section */}
         {brandData?.qualityAssurance && (

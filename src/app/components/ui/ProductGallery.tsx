@@ -79,9 +79,6 @@ export default function ProductGallery({
                 alt={`${productName} thumbnail ${idx + 1}`}
                 className="w-full h-full object-cover"
               />
-              <span className="absolute bottom-1 right-1 text-[9px] font-bold text-gray-800 bg-white/95 px-1.5 py-0.5 border border-gray-300">
-                {idx + 1}
-              </span>
             </button>
           ))}
         </div>
