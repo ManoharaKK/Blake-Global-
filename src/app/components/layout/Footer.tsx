@@ -100,7 +100,7 @@ export default function Footer() {
 
         {/* Bottom Copyright & Legal Line */}
         <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col sm:flex-row items-center justify-between text-xs text-gray-500 gap-4">
-          <p>© {new Date().getFullYear()} Blake Global (PVT) LTD. All rights reserved.</p>
+          <p suppressHydrationWarning>© {new Date().getFullYear()} Blake Global (PVT) LTD. All rights reserved.</p>
           <div className="flex items-center gap-4 text-gray-400">
             <Link href="/terms" className="hover:text-[#4174D6]">Terms</Link>
             <span>•</span>

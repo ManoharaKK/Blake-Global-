@@ -24,8 +24,8 @@ export default function Mission() {
           {/* Featured Image Column */}
           <div className="lg:col-span-5 relative min-h-[360px] sm:min-h-[440px] bg-gray-900 border border-gray-200 shadow-sm overflow-hidden rounded-none">
             <img
-              src="/images/products/VitaBlake Omega 3.JPG"
-              alt="VitaBlake Omega 3 - Blake Global Mission & Vision"
+              src="/images/products/All_Product.jpeg"
+              alt="VitaBlake All Products - Blake Global Mission & Vision"
               className="w-full h-full object-cover rounded-none"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent pointer-events-none" />
