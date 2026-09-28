@@ -42,11 +42,10 @@
       ]
     }
   },
-
   "products": [
     {
       "id": "vb-001",
-      "sku": "VB-COL-001",
+      "sku": "VB004",
       "slug": "vitablake-collagen-ultra",
       "title": "VitaBlake Collagen Ultra",
       "name": "VitaBlake Collagen Ultra",
@@ -54,9 +53,16 @@
       "tagline": "Strong Foundations. Healthy Movement. Everyday Support.",
       "brand": "VitaBlake",
       "category": "Joint & Bone Health",
-      "packSize": { "count": 60, "unit": "capsules" },
-      "supply": { "label": "2 month supply", "minDays": 60, "maxDays": 60 },
-      "price": null,
+      "packSize": {
+        "count": 60,
+        "unit": "capsules"
+      },
+      "supply": {
+        "label": "2 month supply",
+        "minDays": 60,
+        "maxDays": 60
+      },
+      "price": 6100,
       "currency": "LKR",
       "stock": {
         "quantity": 100,
@@ -115,7 +121,9 @@
       "directions": "Take 1 capsule per day with a meal, or as directed by a healthcare professional.",
       "productAdvice": "Do not exceed stated recommended dose. A food supplement should not be used as a substitute for a varied and balanced diet & healthy lifestyle. Store in a cool dry place, out of the reach and sight of young children.",
       "warnings": [],
-      "allergens": ["Fish"],
+      "allergens": [
+        "Fish"
+      ],
       "specifications": {
         "form": "Capsules",
         "quantity": "60 Capsules",
@@ -137,7 +145,7 @@
     },
     {
       "id": "vb-002",
-      "sku": "VB-OMG-002",
+      "sku": "VB006",
       "slug": "vitablake-omega-3",
       "title": "VitaBlake Omega 3",
       "name": "VitaBlake Omega 3",
@@ -145,9 +153,16 @@
       "tagline": "Pure Omega-3. Nature. Nutrition. Wellness.",
       "brand": "VitaBlake",
       "category": "Heart, Brain & Vision",
-      "packSize": { "count": 90, "unit": "softgels" },
-      "supply": { "label": "1 month supply", "minDays": 30, "maxDays": 30 },
-      "price": null,
+      "packSize": {
+        "count": 90,
+        "unit": "softgels"
+      },
+      "supply": {
+        "label": "1 month supply",
+        "minDays": 30,
+        "maxDays": 30
+      },
+      "price": 8800,
       "currency": "LKR",
       "stock": {
         "quantity": 100,
@@ -199,7 +214,9 @@
       "directions": "Take 3 softgels daily or as directed by a healthcare professional.",
       "productAdvice": "Do not exceed recommended dose. A food supplement should not be used as a substitute for a varied and balanced diet & healthy lifestyle. Store in a cool dry place, out of the reach and sight of children.",
       "warnings": [],
-      "allergens": ["Fish"],
+      "allergens": [
+        "Fish"
+      ],
       "specifications": {
         "form": "Softgels",
         "quantity": "90 Softgels",
@@ -222,17 +239,24 @@
     },
     {
       "id": "vb-003",
-      "sku": "VB-RBY-003",
+      "sku": "VB007",
       "slug": "vitablake-royal-bee",
       "title": "VitaBlake Royal Bee",
       "name": "VitaBlake Royal Bee",
       "subtitle": "Royal Jelly 600mg",
-      "tagline": "Nature's Daily Defence — Support Your Immunity.",
+      "tagline": "Nature's Daily Defence \u2014 Support Your Immunity.",
       "brand": "VitaBlake",
       "category": "Immunity & Vitality",
-      "packSize": { "count": 60, "unit": "capsules" },
-      "supply": { "label": "1-2 months supply", "minDays": 30, "maxDays": 60 },
-      "price": null,
+      "packSize": {
+        "count": 60,
+        "unit": "capsules"
+      },
+      "supply": {
+        "label": "1-2 months supply",
+        "minDays": 30,
+        "maxDays": 60
+      },
+      "price": 4960,
       "currency": "LKR",
       "stock": {
         "quantity": 100,
@@ -305,7 +329,7 @@
     },
     {
       "id": "vb-004",
-      "sku": "VB-DMX-004",
+      "sku": "VB001",
       "slug": "vitablake-dailymax-multivitamin",
       "title": "VitaBlake DailyMax Multivitamin",
       "name": "VitaBlake DailyMax Multivitamin",
@@ -313,9 +337,16 @@
       "tagline": null,
       "brand": "VitaBlake",
       "category": "Multivitamins",
-      "packSize": { "count": 90, "unit": "capsules" },
-      "supply": { "label": "3 months supply", "minDays": 90, "maxDays": 90 },
-      "price": null,
+      "packSize": {
+        "count": 90,
+        "unit": "capsules"
+      },
+      "supply": {
+        "label": "3 months supply",
+        "minDays": 90,
+        "maxDays": 90
+      },
+      "price": 6980,
       "currency": "LKR",
       "stock": {
         "quantity": 100,
@@ -345,10 +376,47 @@
         "Amino Acids: L-Glutamic Acid"
       ],
       "ingredientGroups": [
-        { "group": "Vitamins", "items": ["A", "B1", "B2", "B3", "B5", "B6", "B12", "C", "D3", "E"] },
-        { "group": "Other nutrients", "items": ["Biotin", "Folic Acid", "Choline", "PABA", "Bioflavonoids"] },
-        { "group": "Minerals", "items": ["Zinc", "Manganese", "Potassium", "Chromium", "Molybdenum"] },
-        { "group": "Amino Acids", "items": ["L-Glutamic Acid"] }
+        {
+          "group": "Vitamins",
+          "items": [
+            "A",
+            "B1",
+            "B2",
+            "B3",
+            "B5",
+            "B6",
+            "B12",
+            "C",
+            "D3",
+            "E"
+          ]
+        },
+        {
+          "group": "Other nutrients",
+          "items": [
+            "Biotin",
+            "Folic Acid",
+            "Choline",
+            "PABA",
+            "Bioflavonoids"
+          ]
+        },
+        {
+          "group": "Minerals",
+          "items": [
+            "Zinc",
+            "Manganese",
+            "Potassium",
+            "Chromium",
+            "Molybdenum"
+          ]
+        },
+        {
+          "group": "Amino Acids",
+          "items": [
+            "L-Glutamic Acid"
+          ]
+        }
       ],
       "benefits": [
         "General health & immunity",
@@ -362,7 +430,7 @@
       "keyBenefits": [
         "Complete 3-Month Daily Multivitamin Supply",
         "Supports Immunity, Energy, Mental Clarity & Bone Health",
-        "Vegetable Cellulose Capsule — No Unnecessary Binders"
+        "Vegetable Cellulose Capsule \u2014 No Unnecessary Binders"
       ],
       "sections": [
         {
@@ -433,7 +501,7 @@
     },
     {
       "id": "vb-005",
-      "sku": "VB-LIV-005",
+      "sku": "VB002",
       "slug": "vitablake-pureliver-support",
       "title": "VitaBlake Pureliver Support",
       "name": "VitaBlake Pureliver Support",
@@ -441,9 +509,16 @@
       "tagline": "Liver Support + Antioxidant Support + Nutritional Wellness",
       "brand": "VitaBlake",
       "category": "Liver Health",
-      "packSize": { "count": 60, "unit": "capsules" },
-      "supply": { "label": "1 month supply", "minDays": 30, "maxDays": 30 },
-      "price": null,
+      "packSize": {
+        "count": 60,
+        "unit": "capsules"
+      },
+      "supply": {
+        "label": "1 month supply",
+        "minDays": 30,
+        "maxDays": 30
+      },
+      "price": 8200,
       "currency": "LKR",
       "stock": {
         "quantity": 100,
@@ -526,7 +601,7 @@
     },
     {
       "id": "vb-006",
-      "sku": "VB-KDS-006",
+      "sku": "VB005",
       "slug": "vitablake-smart-kids-multivitamin",
       "title": "VitaBlake Smart Kids Multivitamin",
       "name": "VitaBlake Smart Kids Multivitamin",
@@ -534,9 +609,16 @@
       "tagline": "Everyday Nutrition for Growing Smart Kids",
       "brand": "VitaBlake",
       "category": "Kids' Health",
-      "packSize": { "count": 120, "unit": "capsules" },
-      "supply": { "label": "40-120 days supply, depending on age", "minDays": 40, "maxDays": 120 },
-      "price": null,
+      "packSize": {
+        "count": 120,
+        "unit": "capsules"
+      },
+      "supply": {
+        "label": "40-120 days supply, depending on age",
+        "minDays": 40,
+        "maxDays": 120
+      },
+      "price": 5150,
       "currency": "LKR",
       "stock": {
         "quantity": 100,
@@ -602,9 +684,21 @@
       ],
       "directions": "Take with a meal.",
       "dosageByAge": [
-        { "age": "4-6 years", "dose": "1 capsule daily (open capsule and add powder to liquid of choice)", "supplyDays": 120 },
-        { "age": "7-13 years", "dose": "2 capsules daily", "supplyDays": 60 },
-        { "age": "14+ years", "dose": "3 capsules daily", "supplyDays": 40 }
+        {
+          "age": "4-6 years",
+          "dose": "1 capsule daily (open capsule and add powder to liquid of choice)",
+          "supplyDays": 120
+        },
+        {
+          "age": "7-13 years",
+          "dose": "2 capsules daily",
+          "supplyDays": 60
+        },
+        {
+          "age": "14+ years",
+          "dose": "3 capsules daily",
+          "supplyDays": 40
+        }
       ],
       "productAdvice": "Do not exceed recommended dose. A food supplement should not be used as a substitute for a varied diet or healthy lifestyle. Store in a cool dry place, out of the reach and sight of young children.",
       "warnings": [],
@@ -631,7 +725,7 @@
     },
     {
       "id": "vb-007",
-      "sku": "VB-TRG-007",
+      "sku": "VB003",
       "slug": "vitablake-triaglow",
       "title": "VitaBlake Triaglow",
       "name": "VitaBlake Triaglow",
@@ -639,9 +733,16 @@
       "tagline": "Beauty from Within",
       "brand": "VitaBlake",
       "category": "Beauty",
-      "packSize": { "count": 120, "unit": "capsules" },
-      "supply": { "label": "40-120 days supply, based on daily intake", "minDays": 40, "maxDays": 120 },
-      "price": null,
+      "packSize": {
+        "count": 120,
+        "unit": "capsules"
+      },
+      "supply": {
+        "label": "40-120 days supply, based on daily intake",
+        "minDays": 40,
+        "maxDays": 120
+      },
+      "price": 7600,
       "currency": "LKR",
       "stock": {
         "quantity": 100,

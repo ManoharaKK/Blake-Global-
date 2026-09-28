@@ -250,9 +250,9 @@ export default function ProductCarousel() {
                   <div className="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between">
                     <div>
                       {product.price ? (
-                        <div className="flex items-baseline gap-2">
-                          <span className="text-xl font-extrabold text-gray-900">
-                            {product.price} {product.currency || 'LKR'}
+                        <div className="flex items-baseline gap-1">
+                          <span className="text-base font-black text-[#4174D6]">
+                            Rs. {product.price.toLocaleString('en-US')}.00
                           </span>
                         </div>
                       ) : (
