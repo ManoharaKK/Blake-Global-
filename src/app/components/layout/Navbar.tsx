@@ -12,10 +12,14 @@ export default function Navbar() {
   return (
     <header className="fixed top-0 left-0 right-0 z-[100] w-full bg-white/70 backdrop-blur-xl border-b border-gray-200/60 shadow-lg shadow-black/5 transition-all duration-300">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3.5 sm:px-6 lg:px-8">
-        
-        {/* Logo */}
-        <Link href="/" onClick={closeMenu} className="flex items-center gap-3">
-          <span className="text-xl font-bold text-gray-900 tracking-tight">BlakeGlobal</span>
+
+        {/* Logo - Image Only */}
+        <Link href="/" onClick={closeMenu} className="flex items-center group">
+          <img
+            src="/images/home/Logo.png"
+            alt="BlakeGlobal Logo"
+            className="h-10 sm:h-12 w-auto object-contain group-hover:scale-105 transition-transform"
+          />
         </Link>
 
         {/* Desktop Navigation Links */}

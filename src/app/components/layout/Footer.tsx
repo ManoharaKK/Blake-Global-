@@ -6,11 +6,15 @@ export default function Footer() {
     <footer className="bg-black text-white border-t border-gray-800 relative z-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
-          
+
           {/* Brand & About Column */}
           <div className="lg:col-span-2 space-y-4">
             <div className="flex items-center gap-3">
-              <span className="text-2xl font-bold text-white tracking-tight">BlakeGlobal</span>
+              <img
+                src="/images/home/Logo.png"
+                alt="BlakeGlobal Logo"
+                className="h-12 w-auto object-contain"
+              />
               <span className="text-xs font-semibold px-2.5 py-1 bg-[#4174D6] text-white border border-[#4174D6] rounded-none">
                 UK & Sri Lanka
               </span>
@@ -87,7 +91,7 @@ export default function Footer() {
               </div>
               <div className="pt-2">
                 <a
-                  href="mailto:sales@blakegloballtd.com"
+                  href="mailto:info@blakegloballtd.com"
                   className="inline-flex items-center justify-center px-4 py-2 bg-[#4174D6] hover:bg-white hover:text-black text-white text-xs font-bold uppercase tracking-wider transition-all border border-[#4174D6] rounded-none"
                 >
                   Email Us

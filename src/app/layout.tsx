@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import Navbar from "./components/layout/Navbar";  
+import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 import "./globals.css";
 
@@ -17,6 +17,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Blake Global | Premium UK-Manufactured Health & Wellness Products",
   description: "Official Sri Lankan branch of Blake Global Holdings Ltd (UK), providing world-class UK health supplements and nutraceutical formulations.",
+  icons: {
+    icon: "/images/home/Logo.png",
+    shortcut: "/images/home/Logo.png",
+    apple: "/images/home/Logo.png",
+  },
 };
 
 export default function RootLayout({

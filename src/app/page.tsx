@@ -1,9 +1,10 @@
 import Image from "next/image";
-import Hero from "./components/ui/hero";
-import ProductCarousel from "./components/ui/product";
-import Why from "./components/ui/Why";
-import Mission from "./components/ui/Mission";
-import ContactSection from "./components/ui/ContactSection";
+import Hero from "@/app/components/ui/hero";
+import ProductCarousel from "@/app/components/ui/product";
+import Why from "@/app/components/ui/Why";
+import Mission from "@/app/components/ui/Mission";
+import ContactSection from "@/app/components/ui/ContactSection";
+
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
                   <h2 className="mt-2 text-3xl sm:text-4xl font-bold text-gray-900 tracking-tight">
                     About Blake Global Holdings Ltd (UK)
                   </h2>
-                  
+
                   <div className="mt-6 space-y-4 text-gray-600 leading-relaxed text-base sm:text-lg">
                     <p>
                       <strong className="text-gray-900 font-semibold">Blake Global Holdings Ltd</strong> is a UK‑based health and wellness company specialising in the development, manufacturing, and export of premium vitamins, dietary supplements, and nutraceutical products. Established with a commitment to quality, safety, and scientific innovation, the company operates under strict UK and EU regulatory standards, ensuring every product meets internationally recognised manufacturing and testing requirements.
@@ -130,6 +131,7 @@ export default function Home() {
 
         {/* Contact Section */}
         <ContactSection />
+
       </div>
     </div>
   );
