@@ -87,7 +87,7 @@ export default function Footer() {
               </div>
               <div className="pt-2">
                 <a
-                  href="mailto:info@blakegloballtd.com"
+                  href="mailto:sales@blakegloballtd.com"
                   className="inline-flex items-center justify-center px-4 py-2 bg-[#4174D6] hover:bg-white hover:text-black text-white text-xs font-bold uppercase tracking-wider transition-all border border-[#4174D6] rounded-none"
                 >
                   Email Us

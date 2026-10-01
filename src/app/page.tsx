@@ -3,6 +3,7 @@ import Hero from "./components/ui/hero";
 import ProductCarousel from "./components/ui/product";
 import Why from "./components/ui/Why";
 import Mission from "./components/ui/Mission";
+import ContactSection from "./components/ui/ContactSection";
 
 export default function Home() {
   return (
@@ -128,24 +129,7 @@ export default function Home() {
         </section>
 
         {/* Contact Section */}
-        <section id="contact" className="py-24 bg-gray-50">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="max-w-2xl mx-auto text-center">
-              <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 tracking-tight">Get in Touch</h2>
-              <p className="mt-4 text-lg text-gray-600">
-                Ready to start your next project? Contact us today to learn how we can help.
-              </p>
-              <div className="mt-8 flex justify-center gap-4">
-                <a
-                  href="mailto:contact@blackeglobal.com"
-                  className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-none shadow-sm text-white bg-[#4174D6] hover:bg-black transition-colors"
-                >
-                  Send Message
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
+        <ContactSection />
       </div>
     </div>
   );

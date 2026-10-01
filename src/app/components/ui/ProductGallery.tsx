@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React from 'react';
 
 interface ProductGalleryProps {
   images?: string[];
@@ -17,28 +17,16 @@ export default function ProductGallery({
   subtitle,
   packLabel,
 }: ProductGalleryProps) {
-  // Ensure we have 5 images for display as requested
-  const displayImages = React.useMemo(() => {
-    if (!images || images.length === 0) return [];
-    let list = [...images];
-    while (list.length < 5) {
-      list.push(images[0]);
-    }
-    return list.slice(0, 5);
-  }, [images]);
-
-  const [selectedIndex, setSelectedIndex] = useState(0);
-
-  const activeImage = displayImages[selectedIndex];
+  const activeImage = images && images.length > 0 ? images[0] : null;
 
   return (
     <div className="w-full flex flex-col">
-      {/* Main Showcase Image Container - Large Prominent Display (520px height) */}
+      {/* Main Showcase Image Container - Single Image Display */}
       <div className="relative w-full h-[380px] sm:h-[480px] lg:h-[540px] rounded-none overflow-hidden flex items-center justify-center bg-white border border-gray-200 shadow-md group">
         {activeImage ? (
           <img
             src={activeImage}
-            alt={`${productName} - View ${selectedIndex + 1}`}
+            alt={productName}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           />
         ) : (
@@ -58,31 +46,6 @@ export default function ProductGallery({
           </div>
         )}
       </div>
-
-      {/* 5 Thumbnails Gallery Row - Larger & Bold */}
-      {displayImages.length > 0 && (
-        <div className="w-full grid grid-cols-5 gap-2.5 mt-3">
-          {displayImages.map((img, idx) => (
-            <button
-              key={idx}
-              type="button"
-              onClick={() => setSelectedIndex(idx)}
-              aria-label={`View image ${idx + 1}`}
-              className={`relative h-20 sm:h-24 w-full bg-white border transition-all duration-200 overflow-hidden flex items-center justify-center rounded-none cursor-pointer ${
-                selectedIndex === idx
-                  ? 'border-[#4174D6] ring-2 ring-[#4174D6]/50 shadow-md scale-102'
-                  : 'border-gray-200 opacity-70 hover:opacity-100 hover:border-gray-400'
-              }`}
-            >
-              <img
-                src={img}
-                alt={`${productName} thumbnail ${idx + 1}`}
-                className="w-full h-full object-cover"
-              />
-            </button>
-          ))}
-        </div>
-      )}
     </div>
   );
 }
