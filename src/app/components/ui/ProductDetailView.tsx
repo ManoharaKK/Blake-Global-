@@ -58,10 +58,10 @@ export default function ProductDetailView({ product, brandData }: ProductDetailV
         <div className="bg-white rounded-none border border-gray-200 shadow-xl overflow-hidden mb-16">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 p-6 sm:p-10 items-start">
             
-            {/* Left: Product Visual Showcase (50% width) */}
+            {/* Left: Product Visual Showcase */}
             <div className="lg:col-span-6 bg-slate-50/70 rounded-none p-4 sm:p-6 border border-gray-200/80 flex flex-col justify-start relative lg:sticky lg:top-28 self-start">
 
-              {/* Interactive 5-Image Gallery */}
+              {/* Single Image Showcase */}
               <ProductGallery
                 images={product.images}
                 productName={productName}
@@ -106,7 +106,7 @@ export default function ProductDetailView({ product, brandData }: ProductDetailV
               </div>
             </div>
 
-            {/* Right: Product Info & Main Actions (50% width) */}
+            {/* Right: Product Info & Main Actions */}
             <div className="lg:col-span-6 flex flex-col justify-between">
               <div>
                 <div className="border-b border-gray-100 pb-4 mb-6">

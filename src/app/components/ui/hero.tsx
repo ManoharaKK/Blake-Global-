@@ -14,7 +14,7 @@ export default function Hero() {
         playsInline
         className="absolute inset-0 z-0 w-full h-full object-cover"
       >
-        <source src="/images/home/HeroVideo.mp4" type="video/mp4" />
+        <source src="/images/home/Hero.mp4" type="video/mp4" />
       </video>
 
       {/* Bottom to Top Dark Gradient Shadow Overlay */}

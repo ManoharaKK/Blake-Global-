@@ -30,9 +30,7 @@ export default function InquiryModal({
   
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
-  const [errorMsg, setErrorMsg] = useState('');
 
-  // Sync initialProduct if changed when opening modal
   useEffect(() => {
     if (initialProduct) {
       setSelectedProduct(initialProduct);
@@ -45,7 +43,6 @@ export default function InquiryModal({
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setErrorMsg('');
     setIsSubmitting(true);
 
     const payload = {
@@ -61,14 +58,12 @@ export default function InquiryModal({
     };
 
     try {
-      // 1. Post to internal API route /api/inquire
-      const res = await fetch('/api/inquire', {
+      await fetch('/api/inquire', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
       });
 
-      // 2. Prepare mailto fallback link to ensure email is dispatched directly
       const subject = encodeURIComponent(`Product Inquiry: ${selectedProduct} (${quantity} unit/s) - ${fullName}`);
       const body = encodeURIComponent(
         `Dear Blake Global Sales Team,\n\n` +
@@ -89,7 +84,6 @@ export default function InquiryModal({
       setIsSubmitting(false);
       setSubmitted(true);
 
-      // Trigger mailto so user's mail client opens directly pre-populated
       setTimeout(() => {
         window.location.href = mailtoUrl;
       }, 600);
@@ -97,7 +91,6 @@ export default function InquiryModal({
     } catch (err: any) {
       console.error('Inquiry submission error:', err);
       setIsSubmitting(false);
-      // Even if API fails, trigger mailto fallback
       const subject = encodeURIComponent(`Product Inquiry: ${selectedProduct} - ${fullName}`);
       const body = encodeURIComponent(`Product: ${selectedProduct}\nName: ${fullName}\nEmail: ${email}\nPhone: ${phone}\nMessage: ${message}`);
       window.location.href = `mailto:sales@blakegloballtd.com?subject=${subject}&body=${body}`;
@@ -113,20 +106,26 @@ export default function InquiryModal({
 
   return (
     <div className="fixed inset-0 z-[150] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-fadeIn">
-      {/* Modal Box Container */}
       <div
         className="relative w-full max-w-xl bg-white border border-gray-200 shadow-2xl overflow-hidden rounded-none my-8 max-h-[90vh] flex flex-col"
         onClick={(e) => e.stopPropagation()}
       >
-        {/* Header Bar */}
+        {/* Header Bar with BG Logo */}
         <div className="bg-[#4174D6] text-white px-6 py-4 flex items-center justify-between">
-          <div>
-            <span className="text-[10px] font-extrabold uppercase tracking-widest bg-white/20 px-2 py-0.5 rounded-none block w-fit mb-1">
-              Official Product Inquiry & Order Form
-            </span>
-            <h2 className="text-xl font-bold tracking-tight">
-              Inquire / Order VitaBlake Now
-            </h2>
+          <div className="flex items-center gap-3">
+            <img
+              src="/images/home/Logo.png"
+              alt="BlakeGlobal Logo"
+              className="w-10 h-10 object-contain rounded-full border border-white/40 shadow-sm"
+            />
+            <div>
+              <span className="text-[10px] font-extrabold uppercase tracking-widest bg-white/20 px-2 py-0.5 rounded-none block w-fit mb-0.5">
+                Official Product Inquiry & Order Form
+              </span>
+              <h2 className="text-xl font-bold tracking-tight">
+                Inquire / Order VitaBlake Now
+              </h2>
+            </div>
           </div>
           <button
             onClick={handleResetAndClose}
@@ -182,7 +181,6 @@ export default function InquiryModal({
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="space-y-4">
-              {/* Product Selection */}
               <div>
                 <label className="block text-xs font-bold uppercase tracking-wider text-gray-800 mb-1">
                   Select Product *
@@ -190,7 +188,7 @@ export default function InquiryModal({
                 <select
                   value={selectedProduct}
                   onChange={(e) => setSelectedProduct(e.target.value)}
-                  className="w-full px-3 py-2.5 text-sm bg-white border border-gray-300 text-gray-900 focus:outline-none focus:border-[#4174D6] focus:ring-1 focus:ring-[#4174D6] rounded-none font-semibold"
+                  className="w-full px-3 py-2.5 text-sm bg-white border border-gray-300 text-gray-900 focus:outline-none focus:border-[#4174D6] rounded-none font-semibold"
                   required
                 >
                   {products.map((p: any) => {
@@ -206,7 +204,6 @@ export default function InquiryModal({
                 </select>
               </div>
 
-              {/* Quantity & Pack */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
                   <label className="block text-xs font-bold uppercase tracking-wider text-gray-800 mb-1">
@@ -237,7 +234,6 @@ export default function InquiryModal({
                 </div>
               </div>
 
-              {/* Full Name & Email */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
                   <label className="block text-xs font-bold uppercase tracking-wider text-gray-800 mb-1">
@@ -267,7 +263,6 @@ export default function InquiryModal({
                 </div>
               </div>
 
-              {/* Delivery Address */}
               <div>
                 <label className="block text-xs font-bold uppercase tracking-wider text-gray-800 mb-1">
                   Delivery Address / City (Sri Lanka)
@@ -281,7 +276,6 @@ export default function InquiryModal({
                 />
               </div>
 
-              {/* Additional Message / Notes */}
               <div>
                 <label className="block text-xs font-bold uppercase tracking-wider text-gray-800 mb-1">
                   Additional Notes / Questions (Optional)
@@ -295,7 +289,6 @@ export default function InquiryModal({
                 />
               </div>
 
-              {/* Submit CTA */}
               <div className="pt-3 border-t border-gray-100 flex items-center justify-between gap-4">
                 <button
                   type="button"
