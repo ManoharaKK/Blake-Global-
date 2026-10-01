@@ -170,108 +170,133 @@ export default function ProductCarousel() {
           ))}
         </div>
 
-        {/* Carousel Container */}
-        <div
-          ref={scrollRef}
-          className="flex gap-6 overflow-x-auto pb-8 pt-2 snap-x snap-mandatory scrollbar-none scroll-smooth"
-          style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
-        >
-          {filteredProducts.map((product) => {
-            const productName = product.title || product.name || '';
-            const productDesc = product.summary || product.shortDescription || (Array.isArray(product.description) ? product.description[0] : product.description) || '';
-            const stockStatus = product.stock?.status || 'Available in Sri Lanka';
-            const packLabel = product.packSize ? `${product.packSize.count} ${product.packSize.unit}` : product.specifications?.quantity || '';
-            const certs = product.certifications || ["UK Manufactured", "GMP Certified"];
+        {/* Carousel Container Wrapper with Side Navigation Arrows */}
+        <div className="relative group/carousel">
+          {/* Floating Left Arrow Button */}
+          <button
+            onClick={() => scroll('left')}
+            aria-label="Previous products"
+            className="absolute -left-3 sm:-left-5 top-1/2 -translate-y-1/2 z-30 w-12 h-12 bg-white text-gray-900 border border-gray-300 shadow-xl flex items-center justify-center hover:bg-[#4174D6] hover:text-white hover:border-[#4174D6] transition-all duration-200 rounded-none cursor-pointer"
+          >
+            <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="3">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
 
-            return (
-              <div
-                key={product.id}
-                className="snap-start shrink-0 w-[290px] sm:w-[340px] group bg-white border border-gray-200/80 shadow-sm hover:shadow-xl hover:border-[#4174D6] transition-all duration-300 flex flex-col overflow-hidden rounded-none"
-              >
-                {/* Image Card Header (Full Size Image Space) */}
-                <Link href={`/product/${product.slug}`} className="relative h-72 sm:h-80 w-full bg-white overflow-hidden border-b border-gray-100 rounded-none block">
+          {/* Carousel Scroll Track */}
+          <div
+            ref={scrollRef}
+            className="flex gap-6 overflow-x-auto pb-8 pt-2 snap-x snap-mandatory scrollbar-none scroll-smooth px-1"
+            style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
+          >
+            {filteredProducts.map((product) => {
+              const productName = product.title || product.name || '';
+              const productDesc = product.summary || product.shortDescription || (Array.isArray(product.description) ? product.description[0] : product.description) || '';
+              const stockStatus = product.stock?.status || 'Available in Sri Lanka';
+              const packLabel = product.packSize ? `${product.packSize.count} ${product.packSize.unit}` : product.specifications?.quantity || '';
+              const certs = product.certifications || ["UK Manufactured", "GMP Certified"];
 
-                  {/* Product Image */}
-                  {product.images && product.images[0] ? (
-                    <img
-                      src={product.images[0]}
-                      alt={productName}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 rounded-none bg-white"
-                    />
-                  ) : (
-                    <div className="w-full h-full flex items-center justify-center p-6">
-                      <div className="w-24 h-36 bg-white border-2 border-gray-200 shadow-md flex flex-col items-center justify-between p-2 relative overflow-hidden rounded-none">
-                        <div className="w-14 h-4 bg-gradient-to-r from-gray-800 to-gray-900 border-b border-gray-700"></div>
-                        <div className={`w-full flex-1 bg-[#4174D6] my-1 p-2 flex flex-col justify-between text-white text-center shadow-inner`}>
-                          <span className="text-[8px] font-bold uppercase opacity-80">{product.brand || 'VitaBlake'}</span>
-                          <div>
-                            <div className="text-[10px] font-extrabold leading-tight line-clamp-2">{productName}</div>
-                            {packLabel && <div className="text-[7px] mt-0.5 opacity-90">{packLabel}</div>}
+              return (
+                <div
+                  key={product.id}
+                  className="snap-start shrink-0 w-[290px] sm:w-[340px] group bg-white border border-gray-200/80 shadow-sm hover:shadow-xl hover:border-[#4174D6] transition-all duration-300 flex flex-col overflow-hidden rounded-none"
+                >
+                  {/* Image Card Header (Full Size Image Space) */}
+                  <Link href={`/product/${product.slug}`} className="relative h-72 sm:h-80 w-full bg-white overflow-hidden border-b border-gray-100 rounded-none block">
+
+                    {/* Product Image */}
+                    {product.images && product.images[0] ? (
+                      <img
+                        src={product.images[0]}
+                        alt={productName}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 rounded-none bg-white"
+                      />
+                    ) : (
+                      <div className="w-full h-full flex items-center justify-center p-6">
+                        <div className="w-24 h-36 bg-white border-2 border-gray-200 shadow-md flex flex-col items-center justify-between p-2 relative overflow-hidden rounded-none">
+                          <div className="w-14 h-4 bg-gradient-to-r from-gray-800 to-gray-900 border-b border-gray-700"></div>
+                          <div className={`w-full flex-1 bg-[#4174D6] my-1 p-2 flex flex-col justify-between text-white text-center shadow-inner`}>
+                            <span className="text-[8px] font-bold uppercase opacity-80">{product.brand || 'VitaBlake'}</span>
+                            <div>
+                              <div className="text-[10px] font-extrabold leading-tight line-clamp-2">{productName}</div>
+                              {packLabel && <div className="text-[7px] mt-0.5 opacity-90">{packLabel}</div>}
+                            </div>
+                            <span className="text-[7px] font-semibold bg-white/20 py-0.5">UK FORMULA</span>
                           </div>
-                          <span className="text-[7px] font-semibold bg-white/20 py-0.5">UK FORMULA</span>
                         </div>
                       </div>
-                    </div>
-                  )}
-                </Link>
+                    )}
+                  </Link>
 
-                {/* Card Body */}
-                <div className="p-6 flex-1 flex flex-col justify-between">
-                  <div>
-                    <div className="flex items-center justify-between text-xs text-gray-500 mb-2">
-                      <span className="font-semibold text-[#4174D6]">{product.category}</span>
-                      {product.sku && <span>SKU: {product.sku}</span>}
-                    </div>
-
-                    <Link href={`/product/${product.slug}`}>
-                      <h3 className="text-lg font-bold text-gray-900 group-hover:text-[#4174D6] transition-colors line-clamp-1">
-                        {productName}
-                      </h3>
-                      {product.subtitle && (
-                        <span className="text-xs text-gray-500 font-medium block mt-0.5">{product.subtitle}</span>
-                      )}
-                    </Link>
-
-                    <p className="text-xs text-gray-600 mt-2 line-clamp-2 leading-relaxed">
-                      {productDesc}
-                    </p>
-
-                    {/* Certifications preview */}
-                    <div className="mt-4 flex flex-wrap gap-1.5">
-                      {certs.slice(0, 2).map((cert, idx) => (
-                        <span key={idx} className="text-[10px] font-medium bg-slate-100 text-slate-700 px-2 py-0.5 rounded-none">
-                          ✓ {cert}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-
-                  {/* Price & Action */}
-                  <div className="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between">
+                  {/* Card Body */}
+                  <div className="p-6 flex-1 flex flex-col justify-between">
                     <div>
-                      {product.price ? (
-                        <div className="flex items-baseline gap-1">
-                          <span className="text-base font-black text-[#4174D6]">
-                            Rs. {product.price.toLocaleString('en-US')}.00
+                      <div className="flex items-center justify-between text-xs text-gray-500 mb-2">
+                        <span className="font-semibold text-[#4174D6]">{product.category}</span>
+                        {product.sku && <span>SKU: {product.sku}</span>}
+                      </div>
+
+                      <Link href={`/product/${product.slug}`}>
+                        <h3 className="text-lg font-bold text-gray-900 group-hover:text-[#4174D6] transition-colors line-clamp-1">
+                          {productName}
+                        </h3>
+                        {product.subtitle && (
+                          <span className="text-xs text-gray-500 font-medium block mt-0.5">{product.subtitle}</span>
+                        )}
+                      </Link>
+
+                      <p className="text-xs text-gray-600 mt-2 line-clamp-2 leading-relaxed">
+                        {productDesc}
+                      </p>
+
+                      {/* Certifications preview */}
+                      <div className="mt-4 flex flex-wrap gap-1.5">
+                        {certs.slice(0, 2).map((cert, idx) => (
+                          <span key={idx} className="text-[10px] font-medium bg-slate-100 text-slate-700 px-2 py-0.5 rounded-none">
+                            ✓ {cert}
                           </span>
-                        </div>
-                      ) : (
-                        <span className="text-sm font-extrabold text-gray-900">Inquire for Price</span>
-                      )}
-                      {packLabel && <span className="text-[10px] text-gray-500 block">{packLabel}</span>}
+                        ))}
+                      </div>
                     </div>
 
-                    <Link
-                      href={`/product/${product.slug}`}
-                      className="inline-flex items-center justify-center px-4 py-2 text-xs font-bold text-white bg-[#4174D6] hover:bg-black shadow-md shadow-[#4174D6]/20 transition-all duration-200 group-hover:px-5 rounded-none"
-                    >
-                      View Details
-                    </Link>
+                    {/* Price & Action */}
+                    <div className="mt-6 pt-4 border-t border-gray-100 flex items-center justify-between">
+                      <div>
+                        {product.price ? (
+                          <div className="flex items-baseline gap-1">
+                            <span className="text-base font-black text-[#4174D6]">
+                              Rs. {product.price.toLocaleString('en-US')}.00
+                            </span>
+                          </div>
+                        ) : (
+                          <span className="text-sm font-extrabold text-gray-900">Inquire for Price</span>
+                        )}
+                        {packLabel && <span className="text-[10px] text-gray-500 block">{packLabel}</span>}
+                      </div>
+
+                      <Link
+                        href={`/product/${product.slug}`}
+                        className="inline-flex items-center justify-center px-4 py-2 text-xs font-bold text-white bg-[#4174D6] hover:bg-black shadow-md shadow-[#4174D6]/20 transition-all duration-200 group-hover:px-5 rounded-none"
+                      >
+                        View Details
+                      </Link>
+                    </div>
                   </div>
                 </div>
-              </div>
-            );
-          })}
+              );
+            })}
+          </div>
+
+          {/* Floating Right Arrow Button */}
+          <button
+            onClick={() => scroll('right')}
+            aria-label="Next products"
+            className="absolute -right-3 sm:-right-5 top-1/2 -translate-y-1/2 z-30 w-12 h-12 bg-white text-gray-900 border border-gray-300 shadow-xl flex items-center justify-center hover:bg-[#4174D6] hover:text-white hover:border-[#4174D6] transition-all duration-200 rounded-none cursor-pointer"
+          >
+            <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="3">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
         </div>
       </div>
     </section>
